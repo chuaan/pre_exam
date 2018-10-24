@@ -1,8 +1,8 @@
-Q1: 3,4
+Q1: 3
 Q2: 5
 Q3: 4
-Q4: 1,2,3,4,5 (uncertain)
-Q5: 3 (uncertain)
+Q4: 1
+Q5: 3 (uncertain) or 4
 Q6: 5
 Q7: 1
 Q8: 5
