@@ -8,3 +8,51 @@ Q7: 1
 Q8: 5
 Q9: 1
 Q10: 2
+Q11: 
+
+The autocratic leadership style is not suitable for a Scrum project.
+In the autocratic leadership, the leader controls everything in the team. All other members only need to complete their tasks which are assigned by the leader.
+However, scrum is an Agile SDLC which requires high communication between the team. 
+The scrum SDLC needs that the team should be self-organizing. This is absolutely different from the autocratic leadership.
+
+(want more description)
+
+Q12:
+
+present what is accomplished during the sprint
+identify areas of improvement
+define action items for next sprint
+whole team participates
+all stakeholders are invited
+when a sprint is finished, the Review is held.
+
+Q13:
+
+i: 1500
+ii: 900
+iii: no, 7500
+iv: no, 60 hours. the efficiency of Bob is 40% lower than expected
+
+Q14:
+
+advantages:
+can lead to a high-quality software
+Sometimes customers require a particular quality standard or level which can be satisfied by using a Quality Assurance Process
+
+disadvantages:
+The standard may be seen unrelated or out of date by software engineers
+involve too much bureaucratic form filling
+unsupported by software tools so tedious manual work is involved to maintain standars
+
+(uncertain)
+
+Q15:
+
+i: make the number of all story points divided by the number of time periods. The result is the average velocity. So the number of time periods is 5
+ii: 5 times 2 equals 10. 10 weeks
+iii: 8
+iv: will have 8 weeks.
+
+Q16:
+
+this question is very subjective, so no answer.
