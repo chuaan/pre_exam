@@ -1,0 +1,250 @@
+Q1:A:
+
+Shared printer: in a small company, there is only one shared printer. When someone wants to print, they can send documents into the printer through the network. Then the printer will print out the document
+Shared disk: if one disk is shared, everyone allowed to use the disk can use the disk through the network.
+Shared computer: ......
+Shared database: ......
+Shared scanner: ......
+Shared file: ......
+Shared data: ......
+
+(the question is not clear, so just list some)
+
+Q1:B:
+
+Heterogeneity: different components may have different operating system, hardware or information representation. The distributed system needs allow all of them work properly
+Transparency: the distributed system needs to make the system as a whole rather than a separation of components
+Concurrency: the distributed system needs to provide and manage concurrent access to shared resources
+Fault tolerance: when there are faults in the system, the distributed system should handle these failures and hide them from users
+Security: Resources are accessible to autorized users and used in the way they are intended
+Scalability: System should work efficiently at many different scales, ranging from a small Intranet to the Internet. Remains effective when there is a significant increase in the number of resources and the number of users
+Resus and openess: implemt sufficient open specifications.
+
+Q2:A:
+
+All of the processes play similar roles, interacting cooperatively as peers to perfrom distributed activities or computations without distiction between clients and servers.
+
+Q2:B:
+
+Leakage: Acuisition of information by unauthorised recipients
+	Evesdropping: obtaining private or secret information of copies of messages without authority
+
+Tampering: Unauthorised alteration of information
+	With masquerading, change the data in the system
+
+Vandalism: Interference with the proper operation of system
+	Denial of service
+	
+Q3:A:
+
+TCP: connection-oriented, reliable folow of data, guarantee the order, slower, three handshake
+
+UDP: connectionless, unreliable, no guarantee the order, faster, 
+
+Q3:B:
+
+just list related code in lecture
+
+// SimpleServer.java: a simple server program
+import java.net.*;
+import java.io.*;
+public class SimpleServer {
+  public static void main(String args[]) throws IOException {
+    // Register service on port 1234
+    ServerSocket s = new ServerSocket(1234);
+    Socket s1=s.accept(); // Wait and accept a connection
+    // Get a communication stream associated with the socket
+    OutputStream s1out = s1.getOutputStream();
+    DataOutputStream dos = new DataOutputStream (s1out);
+    // Send a string!
+    dos.writeUTF("Hi there");
+    // Close the connection, but not the server socket
+    dos.close();
+    s1out.close();
+    s1.close();
+  }
+}
+
+// SimpleClient.java: a simple client program
+import java.net.*;
+import java.io.*;
+public class SimpleClient {
+  public static void main(String args[]) throws IOException {
+    // Open your connection to a server, at port 1234
+    Socket s1 = new Socket("jarrett.cis.unimelb.edu.au",1234);
+    // Get an input file handle from the socket and read the input
+    InputStream s1In = s1.getInputStream();
+    DataInputStream dis = new DataInputStream(s1In);
+    String st = new String (dis.readUTF());
+    System.out.println(st);
+    // When done, just close the connection and exit
+    dis.close();
+    s1In.close();
+    s1.close();
+  }
+}
+
+Create a class by extending Thread class and override run() method:
+	  class MyThread extends Thread
+	  {
+    	 public void run()
+  	 	{
+     	   // thread body of execution
+  	 	}
+    }	
+Create a thread:
+   MyThread thr1 = new MyThread();
+Start Execution of threads:
+   thr1.start();
+Create and Execute:
+   new MyThread().start();
+
+Create a class that implements the interface Runnable and override run() method:
+class MyThread implements Runnable
+{
+  .....
+  public void run()
+  {
+     // thread body of execution
+  }
+}
+Creating Object:
+    MyThread myObject = new MyThread();
+Creating Thread Object:
+        Thread thr1 = new Thread( myObject );
+Start Execution:
+    thr1.start();
+
+
+Q4:A:
+do not know CORBA
+
+Q4:B:
+
+just list related code in lecture
+
+Specify the Remote Interface
+
+public interface IRemoteMath extends Remote {
+	double add(double i, double j) throws RemoteException;
+	double subtract(double i, double j) throws RemoteException;
+}
+
+Implement the Servant Class
+
+public class RemoteMathServant extends UnicastRemoteObject implements IRemoteMath {
+    public double add ( double i, double j ) throws RemoteException {
+        return (i+j);
+    }
+
+    public double subtract ( double i, double j ) throws RemoteException {
+        return (i-j);
+    }
+}
+
+Implement the server
+
+public class MathServer {
+    public static void main(String args[]){
+        System.setSecurityManager(new RMISecurityManager());
+        try{
+            IRemoteMath remoteMath = new RemoteMathServant();
+            Registry registry = LocateRegistry.getRegistry();
+            registry.bind("Compute", remoteMath );
+	   System.out.println("Math server ready");
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+Implement the client program
+
+public class MathClient {
+    public static void main(String[] args) {
+        try {
+            if(System.getSecurityManager() == null) 
+                System.setSecurityManager( new RMISecurityManager() );
+
+            LocateRegistry.getRegistry("localhost");
+            IRemoteMath remoteMath = (IRemoteMath) registry.lookup("Compute");
+
+            System.out.println( "1.7 + 2.8 = ” + math.add(1.7, 2.8) );
+            System.out.println( "6.7 - 2.3 = ” + math.subtract(6.7, 2.3) );
+        }
+        catch( Exception e ) {
+            System.out.println( e ); 
+        }
+    }
+}
+
+
+
+
+Q5:A:
+
+Run only that system software at each computer that is necessary for its particular role in the system architecture
+Allow the software implementing any particular service to be changed independent of other facilities
+Allow for alternatives of the same services to be provided, when this is required to suit different users or applications
+Introduce new services without harming the integrity of existing ones
+
+Q5:B:
+
+The components of layered system are organized into moduls and layers them one on top of the other. 
+Each module provide a set of functions that other module can call.
+Interface functions at any particular level can invoke services provided by lower layers but not the other way around.
+
+Each layer of code is given access to only the lower-level interfaces it requires, thus limiting the amount of code that wields unlimited power.
+Layering makes it easier to enhance the operating system. One entire layer can be replaced without affecting other parts of the system. 
+
+Q6:A:
+
+NFS?
+AFS?
+DROPBOX?
+(don't understand question)
+
+Q6:B:
+
+see lecture: distributed file system page 17
+
+Flat file service: concerned with the implementation of operations on the contents of file.
+Directory Service: provides mapping between text names for the files and their UFIDs.
+Client Module:
+	it runs on each computer and provids integrated service as a single API to application programs.
+	it holds information about the network locations of flat-file and directory server processes; and achieve better performance through implementation of a cache of recently used file blocks as the client.
+
+Q7:A:
+
+The sender of a message uses a recipient's public key to encrypt the message.
+The recipient uses a corresponding private key to decrypt the message.
+
+the asymmetric cryptography can be used in Secrecy and integrity.
+	encrypt message
+	use checksums to maintain integrity
+	use private key to encrypt the ID to implement authentication
+	digital signatures
+
+Q7:B:
+
+SSL provides key distribution and secure channels for Internet commerce depending on public-key cryptography.
+key exchange method: the method to be used for exchange of a session key: RSA with public-key certificates
+cipher for data transfer: the block or stream cipher to be used for data: IDEA
+message disgest function: for creating meesage authentication codes: SHA
+
+Q8:A:
+
+Names are used to refer to a wide variety of resources. Thus Naming services in a distributed system to facilitate communication and resource sharing.
+Resources are accessed using identifier or reference
+For many purposes, names are preferable to indentifiers
+Resource names are resolved by name services
+
+iterative navigation
+server contolled navigation
+	non-recursive server-controoled
+	recursive server-controlled
+
+Q8:B:
+
+see lecture: naming servers page 21
+use url to find the ip.
