@@ -1,0 +1,266 @@
+1.Understand key elements of a Project and why organisations use them. 
+
+
+A temporary endeavour to create a unique product, service or outcome. 
+Key characteristics: 
+	Introduce CHANGE to the organisation 
+	TEMPORARY, it has a defined beginning and end 
+	CROSS-FUNCTIONAL, cuts across organisational boundaries 
+	Deals with the UNKNOWN 
+	UNIQUE
+	They all vary in SIZE gender money and time
+
+why?
+? Provides strategic alignment of key activities and visibility at the appropriate levels 
+? Mechanism to prioritise activities (Benefits, Regulatory, HW Refresh) 
+? Allows organisations to deliver change in a structured and formal manner outside of BAU 
+? Effective and efficient management of organisations limited resources (people & $＊s) 
+? Establish ownership and accountability 每 Process and the Benefits 
+? Provide clarity, buy-in and agreement across what will be done, when, who, why and the outcomes
+
+2.Understand the foundational components of Project Management. 
+
+Project Management is the planning, delegating, monitoring and controlling of all aspects of the project, and motivating those involved to achieve the project objectives within the expected targets for time, costs, quality, scope, benefits and risks.
+
+Value lies in: 
+? Organising and structuring scarce resources 
+? Managing risk 
+? Identifying and clearing issues 
+? Managing and implementing change 
+? Retaining and re-using knowledge 
+? Organisational wide learning from past success and failures
+
+
+
+3.Understand key skills and responsibilities / activities of a Project Manager. 
+
+Core Skills / Attributes: 
+? Work well under pressure 
+? Comfortable with change and complexity in changing environments 
+? Use / have the right people skills 
+? Adapt, resolve issues and deal with problems 
+? Effective communicators regardless of hierarchy 
+? Action orientated and leave nothing for tomorrow 
+? Command & Control 
+? Good ones are in , hard to find and get paid a lot
+
+activities(traditional)
+
+Planning 
+? Define and clarify project scope 
+? Develop the project management plan 
+? Develop the project schedule 
+? Develop policies and procedures to support the achievement of the project objectives
+
+
+Organising 
+? Determine the project team structure 
+? Identify roles and responsibilities 
+? Identify services to be provided by external companies 
+? Staff all project positions and on-going management 
+
+Leading 
+? Setting team direction 
+? Owning & coordinating activities across different organisational functions 
+? Motivating team members 
+? Assigning work
+
+Controlling 
+? Defining project baselines 
+? Tracking project progress 
+? Project status reporting 
+? Determining and taking corrective actions
+
+Agile is redefining the way we execute projects and the role of the PM. 
+In Agile: 
+? No defined PM role 
+? Key activities are spread / shared across team members 
+	? Key project activities are still undertaken formally with appropriate documentation 
+? Some alignment to activities of a Scrum Master 
+? Move from Command and Control to Servant Leadership 
+	? Coaches and facilitates teams to deliver 
+	? Emphasises objectives ? Is invested in the program's overall performance 
+	? Asks the teams for answers 
+	? Allows the teams to self-organise and hit their stride 
+	? Assists others with fixing issues
+
+4.Understand key elements of how to manage Projects
+
+Expert skills and experience 
+? Minimum 8+ years of experience as a Project Manager managing large, complex projects with multi-functional teams 
+? Strong stakeholder and relationship management skills 
+? Experience in managing multivendor teams 
+? Experience and qualifications in Prince2 
+? Can deal with complexity with very solid Project Management technical skills such as ability to develop and manage schedules, financial workbooks 
+? Strong stakeholder partnership skills, ability to work with teams at varying levels of project experience 
+? Key requirement is knowledge of multiple models of technical project delivery such as agile and running sprints but equally able to build confidence with the steering committee with formal project management approaches such as setting and achieving deadlines on timing and scope
+
+
+5.Exposure to (some) Project Management Methodologies
+
+Waterfall 
+? Traditional approach used for over 40 years 
+? Requirements must be defined at the start 
+? Little / no alternations 
+? Sequential - Complete 1 task and then the next 
+? Used in large scale SW development where thorough planning and predictability is required
+Pros 
+? Extensive planning, this thoroughness often results in more accurate timelines and budgets
+Cons 
+? Difficult to apply changes or modify / correct previous steps (water can＊t run backwards), need to be proactive in anticipating problems
+
+Agile 
+? Focuses on adapting to changing situations 
+? Depends on constant and regular feedback 
+? Focuses on iterative outcomes delivering value as quickly as possible & collaboratively 
+? Involvement & ownership across the team 每 self select the work 
+? Small manageable actions and activities 
+? Customer focus over formalised sign-offs
+Pros 
+? Retains flexibility while continually producing outcomes 每 less rework ? Greater communication & engagement
+Cons 
+? Difficult to do without an experienced Scrum Master ? Large projects co-location a problem ? Difficult to contract suppliers
+
+PRINCE2 
+? Government backed and endorsed (UK 1997) 
+? Widely used and accepted - Consulting, Private and Government 
+? Process orientated approach 
+? Divides projects into multiple stages 
+? Detailed and thorough 
+? Must have a clear need, a target customer, realistic benefits, and a thorough cost analysis
+Pros 
+? Extensive documentation is helpful with corporate planning & tracking
+Cons 
+? Difficult and untimely to adapt changes and apply these to all documentation
+
+PMBOK 每 Project Management Body of Knowledge 
+? Is it a methodology or a standard - it is useful 
+? Analyse and plan future activities in detail 
+? Substantial and detailed frameworks 
+? Rigorous control 
+? Clearly defined roles 
+? Clear and validated deliverables
+Pros 
+? Extensive tools, techniques and supporting templates to manage, monitor and control projects
+Cons 
+? Limits decision making to the project managers 每 they become the primary decision maker 
+? Complex for small projects 
+? Difficult and untimely to adapt changes and apply these to all documentation
+
+which one to choose?
+
+? They all have a place and all can be appropriate 
+? It is like selecting the best recipe 每 it all depends on your ingredients 
+? Items (ingredients) to consider include: 
+	每 Clarity and stability of scope 每 Timelines 
+	每 Tools to support / drive the process 	
+	每 People / knowledge 
+	每 Organisational maturity 
+	每 Stakeholder buy-in 
+	每 Experience in the various approaches
+
+6.Explore key drivers in why projects fail / succeed
+
+? Successful: project is completed on-time and on-budget, with all features and functions as initially specified. 
+? Challenged: completed and operational but over-budget, over the time estimate or offers fewer features and functions than planned. 
+? Failed: project is cancelled at some point during the development cycle.
+
+Success Factors 
+ 1. Executive Sponsorship 15%
+ 2. Emotional Maturity 15%
+ 3. User Involvement 15%
+ 4. Optimisation 每 Statement of Requirements 15%
+ 5. Skilled Resources 10%
+ 6. Standard Architecture 8%
+ 7. Agile Process 7%
+ 8. Modest Execution 6%
+ 9. Project Management Expertise 5%
+ 10. Clear Business Objectives 4%
+
+? Factors have remained relatively constant 
+? If we know the reasons why can＊t we fix / improve it? 
+? 60% (first 4) are non technical items and difficult to change 
+? Broader organisational context and system at play
+
+7.Understand how organisation select the best / right projects.(project Screening)
+
+? The place to start is at the beginning! 
+? Organisations need a formal, structured approach to: 
+	? Select 
+	? Prioritise 
+	? Have oversight and 
+	? Drive accountability across all projects
+
+see L1: page 40
+
+Transformational, Regulatory, Risk, Refresh, BAU + ideas, Opportunities, Needs -> Business Planning Selection -> Concept Phase Selection Filter -> Planning and Execution
+
+the first two phases are screening process, the last two are project management.
+
+8.Understand the Project Initialization process, Business Case structure and why organisations use them
+	
+analyze Case Study (business needs) ->
+analyze constraints (scope, time, cost) ->
+develop Business Case (cost verses benefit) ->
+develop Project Charter (stakeholder analysis)
+
+The purpose of the Business Case is to establish mechanisms to judge whether the project is (and remains) desirable, viable and achievable as a means to support decision making in its initial and continued investment.
+? Provides a factual base for key decisions makers to decide if the project should be undertaken 
+? Demonstrates how the project adds value to the organisation 
+? Has a set of pre-defined standard organisational characteristics (costs, benefits, risk, etc.) 
+? It is not all about size - size depends on the cost / benefit 
+? It is a living document throughout the project that is reviewed and signed off
+
+Business case contains: 
+? Executive summary 
+? Reasons / explanation of why it is required 
+? Business options 
+? Expected benefits 
+? Expected dis-benefits 
+? Timescale 
+? Costs 
+? Investment appraisal 
+? Major risks
+
+9.Explore various Investment techniques and financial models
+
+? For non mandatory projects, the primary benefit is financial 
+? Multiple investment techniques are used to analyse the investment required / financial benefit 
+? Some (there are many more) techniques include: 
+? Return On Investment 
+? Net Present Value 
+? Payback period 
+? However, it is not always about the best return 每 organisations need to invest in all parts of their business
+
+The specific techniques see L1: page 48-51
+
+10.Understand responsibilities associated with building a Business Case and the accountable group / individual
+
+Role Responsibilities
+Corporate 
+1. Provides Mandate / The go ahead. 
+2. Holds Senior Users accountable for benefits realisation. 
+3. Responsible for conducting post projects benefits validation. 
+Executive / Sponsor 
+1. Owns the Business Case. 
+2. Responsible for reviewing the benefits throughout the project. 
+Senior Users 
+1. Responsible for accepting the benefits and delivering them. 
+2. Responsible for ensuring the delivered products are to the appropriate quality standard. 3. Provides on-going actual V forecasted benefit realisation. Project Manager 1. Prepares the Business Case. 2. Conducts Risk assessment and impact analysis. 
+3. Assess and updates the Business Case at each defined stage. 
+Project Assurance / QA 
+1. Assists in developing the Business Case. 2. Ensure value for money and risks are continuously managed. 
+3. Monitors change to the Business Case and validates it. 
+Project Support 
+1. Responsible for capturing data and preparing management reports. 
+2. Key support point for all project stakeholders 每 schedules, cost analysis, minutes, actions, supplier liaison etc.
+
+11. Understand what a Project Charter is and how it is used
+
+see L1: page 56
+including:
+? costs
+? gains
+? milestones
+? stakeholders
+? description
