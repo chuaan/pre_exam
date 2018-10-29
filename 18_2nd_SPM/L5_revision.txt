@@ -1,0 +1,215 @@
+1.Understand how and why Ehics are important
+Why be Ethical? 
+• Sometimes doing what's ethical comes at a personal cost 
+• Exploiting other people 
+• Ethical questions are part of our day to day world 
+• Is it acceptable to download music, videos without paying for them? 
+• Is it acceptable to copy a friends application [MS Office, Visual Studio or Adobe] to your computer without paying for it? 
+• Is it acceptable to copy someone else's work without acknowledging who it is?
+
+Ethics is not only for the 'big issues’ 
+• Should we execute criminals? 
+• Can we destroy embryos for medical research? 
+• Lie under oath? 
+
+It informs our day-to-day interactions 
+• Should we tell a friend a truth even though we know it will upset them? 
+• Must we buy organic free-range eggs even though they cost more than the alternatives? 
+• Our daily decisions in the work place.
+
+There is no ethical theory that can resolve every situation 
+• Lots of things in our lives have moral value 
+– Often framed by our background 
+• Moral dilemmas are inevitable 
+– Should you tell a lie to protect a family member who has done something wrong? 
+– Truth or Family? 
+• What if we value both equally?
+
+Questions to ask & consider before making a decision: 
+1. Would I be happy for this decision to be headlining the news tomorrow? 
+2. Is there a universal rule that applies here? 
+3. Will the proposed course of action bring about a good result? 
+4. What would happen if everybody did this? 
+5. What will this proposed action do to my character or the character of my organisation? 
+6. Is the proposed course of action consistent with my values and principles?
+
+2.Australian Computer Society Code of Ethics
+
+1. The Primacy of Public Interest. 
+• You will place the interests of the public above those of personal, business or sectional interests 
+2. The Enhancement of Quality of Life. 
+• You will strive to enhance the quality of life of those affected by your work 
+3. Honest. 
+• You will be honest in your representation of skills, knowledge, services & products. 
+4. Competence. 
+• You will work competently and diligently for your stakeholders 
+5. Professional Development. 
+• You will enhance your own professional development, your colleagues & staff. 
+6. Professionalism. 
+• You will enhance the integrity of the ACS & the respect of its members for each other.
+
+3.Understand what Outsouring is an why it is used
+
+Definition: The practice of engaging an external party (under contract) to perform services or create goods that are traditionally performed in-house by the company's own employees.
+
+Examples Various activities are better suited to the type of Outsourcing: 
+• Architecture 
+• Change Management 
+• Project Management 
+• Business Analysis 
+• Design 
+• Software Development Testing 
+• Operational (Application & Infrastructure) Support 
+• All the above
+
+Types of Outsourcing: 
+1. Onshoring: 
+• Relocating activities inside national borders to access targeted benefits. 
+2. Nearshoring: 
+• Activities relocated to another country with close proximity e.g. New Zealand, Indonesia. 
+3. Offshoring: 
+• Activities relocated to another country irrelevant of geographical location and time zones.
+
+Accessing a broader skills base at a lower cost
+
+Pros 
+• Reduces costs 
+• Access to difficult to find capabilities & skills 
+• Time savings – 24/7 based activities 
+• Freeing scares internal resources to focus on core business activities 
+• Leverage best practice 
+• Access to better Technology 
+• Lower training costs in high turn over jobs 
+• Flexibility – Ramp up and down 
+• Increased Accountability - Contracts 
+• Risk mitigation – Access established and proven approaches e.g. Agile, Project Management etc
+
+Cons 
+• Loss of control 
+• Process / supply chain fragmentation 
+• Security issues 
+• Employees feel threatened 
+• Additional effort and cost to engage and manage 
+• Lower quality work / work to contract 
+• Time zone, cultural & language challenges 
+• Location stability - Political, Economic, Religious 
+• Ethical standards - environment, slave / child labour 
+• Difficult to change 
+• Damages to the local job markets 
+• Loss of Relationship building opportunity with key stakeholders
+
+Contrary to what the sales people tell you it is NOT a Silver Bullet.
+But it can add value.
+Critical to understand your key drivers, risks you want to / can manage and ensure you look at and include the total picture.
+
+4.Understand the types of contracts, when you would use them and key contractual clauses
+
+Contracts are the one source of truth for all activities that are to delivered by the external parties
+What is a Contract? 
+• A mutually binding agreement that obligates the seller to provide the specified products or services and obligates the buyer to pay for them 
+• A document that clarifies responsibilities and sharpens focus on key requirements – deliverables, quality, timeframes etc 
+• A legally binding document that increases accountability for delivering the specific work as stated in the contract 
+• A document that must be detailed and and accurately as they are used as the final position (you get out of them what you put to them) 
+• It is rarely used or relied on and seen as a last point of call.
+
+Different types of Contracts are used in different situations with all having pros and cons:
+• Fixed Price or Lump Sum contracts: involve a fixed total price for a well-defined product or service.
+• Cost Reimbursable / Cost Plus contracts: involve payment to the seller for direct and indirect costs. Usually an additional payment (profit / incentive) is also paid upon final delivery.
+• Time & Material contracts: involve payment to the seller for actual time spent and any materials used in providing the service.
+
+Contracts should include specific clauses that take into account issues that are unique to the project – Quality, Time, Location etc Key contractual conditions should include 
+• Intellectual Property Ownership and Indemnities 
+• Milestones and Deliverables 
+• Quality Criteria / Performance and Acceptance testing 
+• Variations to scope, time, costs etc – defined Change request process 
+• Non Performance / Termination - Convenience, Breach etc 
+• Disengagement & Transition 
+• Liquidated Damages 
+• Fees & Penalties 
+• Warranties
+
+5.Understand the Procurement Management Process
+
+If there is no need to buy (outsource) any products or services from outside the organisation, then there is no need to perform any of the procurement management processes.
+However you will find that most (if not all) projects will contain some sort of outsourcing.
+The Procurement Management Process consists of 3 broad stages: 
+1. Plan. 
+2. Source. 
+3. Manage.
+
+Planning in procurement involves consulting key stakeholders to define the ‘real’ need, analysing how the supply market works, assessing risks and ultimately defining the best Procurement Strategy to meet the organisations requirements.
+
+Source, the principal objective of this stage is to identify and engage suppliers who will provide the best value for money outcome, in a framework of probity and fair dealing. A key deliverable for this stage is to determine the appropriate sourcing method, with consideration given to alternatives other than just tendering.
+
+Manage, Every arrangement articulates the rights and responsibilities of the parties so it is important to identify, understand and manage them in order to better ensure you ‘get what we contracted for’. Signing an arrangement is not the end of a process, but rather the start of an on-going relationship with the supplier. It needs to be managed in order to deliver the best outcome for the organisation.
+
+The procurement process is typically conducted with the issuing of a Request For X (RFx), where x = Bid, Information, Proposal, Tender or Quote.
+
+The RFx document is prepared by the buyer and will have specific information depending on the what it is (RFI, RFP, RFT/Q). It will typically include: 
+1. Purpose of RFx. 
+2. Organisation’s Background. 
+3. Basic Requirements. 
+4. Hardware and Software Environments. 
+5. Description of RFx Processes & Evaluation. 
+6. Statement of Work and Scheduled Information. 
+7. Appendices: 
+a. Current Systems Overview. 
+b. Systems Requirements. 
+c. Volume and Size data. 
+d. Required Contents of Vendor’s Response to RFx. 
+e. Sample Contract.
+
+A key component of the RFx document is to analyse the business needs and establish a detailed Statement of Work (SOW).
+A Statement Of Work is a description of the work required. A good SOW is detailed and gives bidders an understanding of buyer’s expectations, key items include: 
+• Scope of Work to be completed 
+• Location of where the Work is to be completed from 
+• Measurement and Performance criteria 
+• Deliverables, milestones and schedule 
+• Applicable Standards and Acceptable Criteria 
+• Any Special Requirements
+
+Approach the Market, Select, Negotiate and Award: 
+• Deciding whom to ask and potentially do the work 
+• Sending appropriate documentation to potential sellers / bidders 
+• Obtaining proposals / bids 
+• Evaluating responses and selecting a preferred supplier 
+• Negotiating the contract 
+• Awarding a contract
+
+Evaluation Processes: 
+1. Evaluation team review of RFx response and evaluate against predetermined criteria. 
+2. Schedule short-listed vendor presentations. 
+3. Check vendor references. 
+4. Short-listed vendor presentations. 
+5. Evaluation team site visits to short-listed vendors / references. 
+6. Evaluation team finalises evaluation and selects short-listed firms. 
+7. Best and Final Offer (BAFO) with short-listed firms. 
+8. Conduct final negotiation with preferred supplier.
+
+Implement, Manage & Renew: 
+• Implement the agreement & services as per the contract and SOW 
+• Manage the agreement to ensures the seller’s performance meets contractual requirements 
+• Review and control all changes 
+- It is critical that project managers and team members watch for Constructive Change Orders 
+– If change is requested then contractor can legally bill the buyer for additional work
+
+Change Control is critical. Focus on it early and get it right! 
+• Changes in any part of the project need to be: 
+– Reviewed 
+– Approved 
+– Documented 
+• Evaluation of any change should include an impact analysis 
+– Time, Cost, Scope, Quality 
+• Changes must be documented and signed off by appropriate delegates (business, procurement, finance etc)
+
+Renew / Closing Procurements: 
+• Involves completing, settling contracts and resolving issues 
+• The project team should: 
+– Determine if all work was completed correctly and satisfactorily 
+– Resolve any issues or outstanding items 
+– Up date records to capture all lessons learnt & outcomes 
+– Archive information 
+• The contract itself should include requirements for formal acceptance and closure
+
+
+

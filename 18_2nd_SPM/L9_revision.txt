@@ -1,0 +1,192 @@
+1.Understand the fundamentals of quality management
+
+• Evidence shows that we cannot simply fix up our software post-hoc  and add in quality attributes after building the system
+• Quality must be built into the software from the beginning
+• In this topic you will learn how to built quality into the software through a range of Quality Management activities
+
+• We define quality from two broad perspectives: 
+
+– End-user’s Perspective: Typically, end-users judge the quality of a product by their interaction with it. For users, a system has quality if it is fit for purpose, is reliable, has reasonable performance, is easy to learn and  use, and helps the users in achieving their goals. Sometimes, if the functionality is hard to learn but is extremely important and worth the trouble of learning, then users will still judge the system to have high quality. These  are termed external quality characteristics, because they are typically associated with the external behaviour of the system. 
+
+– Developer’s Perspective: The developer’s perspective typically also includes the number of faults that the system has, ease of modifying the system, ease of testing the system, the ease of understanding the system design, the re-usability of components, conformance to requirements, resource usage, and performance. These are mainly internal quality characteristics, because they are concerned with the quality of the internal structure of the system.
+
+• The above quote implies that developer’s perspective is irrelevant 
+• However, this is not the case:  
+– making our systems understandable by developers  and maintainers increases the likelihood that our product will satisfy the end user 
+• Our perspective is: The quality of the process influences the quality of the product. Ensuring product quality typically involves measuring and assessing  the product and processes.
+
+• Some claim: Most quality assurance activities are too costly - savings   made from not using resources is greater than the cost incurred in fixing the faults
+• For example, instead of performing formal reviews of requirements specification documents, it is far better to build the system, ask the client/user for feedback, and to correct any faults from there. 
+• Alternatively, one can simply release the system and correct faults as users report them.
+• Empirical studies refute the above claim: – There are many studies in the area
+
+2.Understand the quality management process
+
+Quality Assurance -> Quality Planning -> Quality Control
+
+1. Quality assurance: 
+The establishment of a framework of organizational procedures and standards that lead to high-quality software
+2. Quality planning: 
+The selection of appropriate procedures and standards from the framework, adopted for the specific project
+3. Quality control: 
+Ensuring that the software development team has followed the project quality procedures and standards
+
+QA
+
+• Quality assurance process is primarily concerned with defining or selecting the  quality standards 
+– A standard might simply be defined as a set of rules for ensuring quality 
+– Standards play an important role in the quality management process
+• There are two types of standards: 
+– Product standards: • These apply to the product being developed 
+– Process standards: • These standards define the processes that should be followed during software development
+
+• Why are documentation standards important? 
+– documents are the tangible manifestation of the software
+• Documentation process standards 
+– How documents should be developed, validated and maintained
+• Document standards 
+– Concerned with document identification, structure, presentation, changes highlighting, etc.
+• Document interchange standards 
+– How documents are stored and interchanged between different documentation systems 
+– XML is an emerging standard for document interchange which will be widely supported in future
+
+• Advantages of standards 
+– Provide a framework around which the quality assurance process may be implemented 
+– Provide encapsulation of best, or at least most appropriate, practice 
+– Customers sometimes require a particular quality standard/level  when choosing a software vendor • Problems with standards 
+– Not seen as relevant and up-to-date by software engineers 
+– Involve too much bureaucratic form filling 
+– Unsupported by software tools so tedious manual work is involved to maintain standards 
+Standards should not be avoided, but should be tailored as needed!
+
+• Many standards and systems related to software quality exists today
+• Some examples of software standards and systems – ISO 9000 – Capability Maturity Model
+
+• CMM and ISO 9000 share the common concern with quality and  process management 
+– Driven by the same goals they have a correlation
+• A study comparing the two approaches shows: 
+– An ISO 9001-compliant organization would not necessarily satisfy all of the level 2 key process areas, it would satisfy most of the level 2 goals and many level 3 goals 
+– It is possible for a level 1 organization to receive 9001 registration 
+– A level 3 organization would have little difficulty in obtaining ISO 9001 certification, and a level 2 organization would have significant advantages in obtaining certification 
+
+QP
+
+• The process of selecting those standards and systems that are appropriate to a particular  organization and project 
+• The outcome of the planning process is a: 
+– Software Quality Plan (SQP), sometimes called a Software Quality Assurance Plan (SQAP) 
+
+• Software Quality Assurance Plan 
+– Product Overview A description of the product, intended market, and quality expectations 
+– Product Plan The critical release dates and responsibilities 
+– could point to the schedule 
+– Quality Goals The quality goals and plans for the product, including identification and justification of critical product quality attributes 
+– Process Description The quality assurance processes that should be used for product development and management (reviews, audits etc) 
+– Document and Coding Standards Standards for the documents and coding standards 
+– Risks and Risk Management The key risks that might affect product quality and the actions to address these risks (could provide a link to appropriate risks in the Risk Management Plan)
+
+• Some of the quality attributes matter only matter to developers while others matter to  end-users
+• It is not possible for any system to be optimised for all attributes – trade-off is necessary to select the most important ones
+
+• Verification and Validation (V &V) are important aspects of quality assurance 
+• Verification: 
+– A process-oriented activities  of the project that ensures that the product meets the requirements before final testing of the system begins - e.g. do the requirement capture customer needs, does the design support quality goals 
+• Validation: 
+– A product-oriented activity that attempts to determine if the system meets the customer expectations, through testing the system for functional and quality requirements 
+– e.g. unit testing, integration testing, system testing, acceptance testing 
+• The focus of this topic will be on quality assurance through verification 
+– validation is covered in another subject (SWEN90006) 
+
+• Reviews are the most common method used for verification
+• Artefacts  produced during the development process are reviewed as a way of identifying  problems seeking ways to improve them early
+• Four common types of reviews: 
+– Technical Reviews 
+– Business Reviews 
+– Management Reviews 
+– Audits
+
+Technical Reviews
+• Reviews of artefacts is performed by peers in the development team but the author/s are involved
+• The aim is uncovering problems in an artefact and seeking ways to improve the artefact
+• Is considered a “soft” method for quality assurance - that is, nothing is executed 
+– Some developers greet reviews with scepticism - however, empirical evidence suggests that such scepticism is unjustified
+
+• Advantages of technical reviews: 
+– Can be performed on any software artefact, whereas many “hard” methods of quality assurance, such as testing and measurement, can be performed only on executable artefacts. 
+– Earlier detection of problems in software artefacts leads to lower costs of resolution. 
+– Studies show that roughly 30-70% of all programming faults found in a project were located using source code reviews, and up to 80% according to studies performed by IBM. Some studies demonstrated that review techniques found several types of faults that testing failed to find, and vice-versa. 
+– Reviews find the actual faults in source code, in contrast to testing, which merely indicates that there is a fault somewhere in the program. After a fault is detected with testing, it must then be located. 
+– Due to internal pressure of getting software releases out the door, programmers make more mistakes when correcting faults that were found during testing than they do correcting faults during the review phase
+
+• Disadvantages of technical reviews: 
+– Could be time and resource consuming 
+– Should be carefully planned and executed to get the desired outcomes 
+
+• Types of  technical reviews 
+– Informal Reviews 
+– Formal Reviews 
+– Walk throughs 
+– Code inspections 
+– Audits
+
+• Informal Reviews: 
+– A simple desk check or casual meeting with a colleague which aims to improve the quality of a document 
+– No formal guidelines or procedures that are followed 
+– The effectiveness of informal reviews is considerably less than formal reviews, because of the lack of diversity found in a group 
+– Checklists are tools that can help to improve the effectiveness of a review. 
+– A checklist is a list of questions that the reviewer must answer about an artefact, however, the questions are generic questions about that type of artefact 
+– Less time and resource consuming than a formal review
+
+• Formal Reviews: 
+– A meeting with multiple stakeholders such as developers, testers, client 
+• The group approach has benefits of bringing out different perspectives 
+– Meeting should adhere to the following constraints 
+• The review team should be 3-5 members carefully chosen 
+• The meeting should last no longer than 90 minutes 
+• Following are the critical roles 
+– Review Leader: responsible for organizing the review 
+– Author: at least one author should be present 
+– Reviewers: at least two or three non-author stakeholders 
+– Recorder: responsible for recording all important review comments 
+– The review meeting could recommend one of the following: 
+• Accept without further changes 
+• Accept with proposed changes 
+• Reject the artefact 
+– this requires a re-review after modifications
+
+
+• Walkthroughs 
+– Walkthrough could be for code or a document 
+– This is a review process where the author (the programmer or designer) leads a group of reviewers 
+– Following are main differences from a formal review: 
+• Moderator, that leads the review is the author of the artefact being reviewed 
+• Reviewers do not need preparation 
+• When defects or inconsistencies are found, possible solutions are discussed
+
+• Code Inspections 
+– These are very similar to formal reviews, expect that the focus is on the code
+
+• Audits 
+– Reviews of processes and products to determine if a particular product or process conforms to standards 
+– It is a type of technical review where the authors of the artefact being audited are not involved in the audit process at all 
+– all the other roles are similar to a formal review 
+– Audits are typically performed by a team that is completely external to an organisation 
+– Two types of audits: 
+• Product audits: to confirm that the product meets the standards 
+• Process audits: to ensure that the team follows processes
+
+Business Reviews
+• The goal of a business review is to ensure that the IT solution provides the functionality specified in the project scope and requirements document 
+• A business review can include all project deliverables to ensure that: 
+– It is complete 
+– Provides the information needed to move to the next phase or process 
+– Meets the standards
+
+Management Reviews
+• Compares the project’s actual progress against a baseline project plan
+• Project Manager is responsible for presenting the project progress and providing a clear picture of the current status
+• Issues need to be resolved – e.g. resources reallocated as needed, change to the project course if needed
+• May involve reviewing if the project meets the scope, schedule, budget and quality objectives
+
+QC and Management
+
+• Involves monitoring the software development process to ensure that the quality assurance procedures and standards specified in the SQP are being followed

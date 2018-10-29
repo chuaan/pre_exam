@@ -1,0 +1,196 @@
+1.Understand the role of a project schedule
+
+• Project Schedule: 
+– One of the important artefacts generated during  the project planning phase 
+– Is used and maintained throughout the project to monitor and track project progress 
+- is a living document
+
+• What does the project schedule contain? 
+– Tasks that need to be completed 
+– Duration and dependencies for each task 
+– People and physical resources required by each task 
+– Milestones and deliverable 
+– Project Timeline
+
+Project planning and scheduling introduced in this topic apply to formal SDLC processes – Plan Driven
+
+Agile SDLC processes do not use a project schedule - Value/Vision Driven
+
+2.Understand how to develop a project schedule
+
+1. Breakdown the task into small chunks you can deal with – Work Breakdown Structure (WBS)
+2. Identify the interdependencies between the broken down tasks and develop a task network
+3. Estimate the effort and the time allocation for each task
+4. Allocate resources for tasks and validate effort
+5. Develop the project schedule 
+
+• Planning and executing large tasks is challenging: 
+– Estimating the time and resources 
+– Identifying interim goals and deliverable 
+– Progress monitoring
+
+• Solution is to break the task down to manageable units: 
+– Each task should have a specific outcome or a deliverable 
+– Results in a Work Breakdown Structure (WBS)
+
+see L6: page 21
+
+identify the interdependencies between the broken down tasks an develop a task network
+
+
+• Tasks can be: 
+– Unconstrained: the task can start at any time (buy paint, remove detachable decorations)  
+– Constrained: depends on another task (cannot remove wall paper until decorations are removed) 
+• If task B depends on task A (A ->B) 
+– B is a Successor task (S) 
+– A is a predecessor task (P) 
+• Remove Detachable Decorations (P) -> Remove wall paper (S)
+
+• Dependencies are caused by: – a task needing a work product of another task – a task needs resources used by another task
+
+WBS Software Project see L6: page 27-28
+
+Estimate the effort and the time allocation for each tasks
+
+ A common measure for estimating the effort for software is man-months (more generally person-months) – Effort estimation will be covered in week 7
+• person-months: – the time in months for a single person working full time to complete the task
+• The Mythical Man-Months [Brooks seminal paper] – man-months is a misleading measure to estimate software – adding people to a project that is behind schedule could result in more damage than helping it
+
+Putnam-Norden-Raleigh curve see L6: page 31
+
+• Terminology optimistic time  O 
+pessimistic time  P 
+most likely time  M 
+expected time  - 𝑇𝐸
+𝑇𝐸 = (𝑂 + 4𝑀 + 𝑃)/6
+
+Allocate resources for tasks and validate effort
+
+If the effort (person-months) and the time are known, the number of personnel can be computed as:
+
+N=effort/T
+
+• Assigning people to tasks – Although computing the number of personnel required for each task appears simple, resource allocation is complicated task – The project manager has to carefully consider the expertise of the people, and the availability of them for tasks, which might require validation and adjustment of the schedule
+
+Develop a project schedule 
+
+• Project Schedule will answer two important questions not answered so far: 
+– How long will the system take to develop? 
+– How much will it cost?
+• Two widely used graphical notations to represent the Project Schedule 
+– Gantt charts 
+• A bar chart that shows the schedule against a calendar
+– PERT (Program Evaluation and Review Technique) charts 
+• An activity network that shows the  dependencies among tasks and the critical path
+
+• Milestones 
+– Mark specific points along a project timeline 
+– These points may signal anchors such as: 
+• a project start and end date 
+• a need for external review 
+• start and end of a phase 
+• a completion of a deliverable 
+
+• Deliverable 
+– Specific artefacts that are of interest 
+– Examples of deliverables include: 
+• Project documents such as the Project Management Plan, Requirements Specification, Design Document, Test Plan etc. 
+• Prototypes 
+• Final application
+
+Grantt Chart
+
+• Was introduced by Henry Gantt in 1910
+• Gantt chart is a horizontal bar chart which shows tasks against a timeline – project schedule
+• Can be used to view planned activities vs progress and therefore is a useful tool for monitoring project progress
+
+Linked Gantt charts • contain lines indicating the dependencies between tasks
+
+Progress Gantt charts • tasks are shaded in proportion to the degree of their completion • used for progress tracking – gives a visual representation of the progress
+
+PERT (Program Evaluation and Review Technique) chart: 
+– A task network which shows the dependencies along with time related information and the critical path
+
+PERT analysis helps: 
+• understand the characteristics of the project that will let project managers do scheduling trade-offs 
+• perform critical path analysis 
+• monitor project progress and re-plan 
+
+Involves calculating the following estimates: 
+• Earliest start time (ES) 
+• Latest start time (LS) 
+• Earliest finish time (EF) 
+• Latest finish time (LF) 
+• Slack time
+
+Critical Path:    a, c, e, g Duration:          19 days
+Notes: • Critical path activities have a total free slack of 0 • Two parallel paths could be critical path
+
+ Critical Path – path with the longest duration 
+ – activities on the critical path have a total free slack of 0 
+ – a delay in any of the activities in the critical path will cause the project to delay
+• Crashing the project schedule 
+– shortening the total duration of the project by shortening the critical path 
+• By removing the dependencies between activities in the critical path; or 
+• Shortening the duration of activities in the critical path
+
+3.Understand how to use a project schedule to monitor and track project progress
+
+• How do software projects fall behind schedule? One day at a time – Fred Brooks, the well-known author of the seminal article Mythical Man-Months
+• Project scheduling is important, but tracking and controlling are even more important!
+
+• How to track and control project progress? 
+– Periodic meetings where team members report progress
+– Evaluating the results of reviews and audits conducted as part of the software engineering process
+– Tracking formal project milestones
+– Comparing actual start dates with scheduled start dates
+– Meeting engineers and having informal discussions
+– Using a formal method like earned value analysis 
+
+Earned Value Analysis (EVA)
+• EVA can be used to: 
+– report current/past project performance 
+– predict future project performance based on current/past performance
+
+• Results can be expressed in dollars and/or percentage
+
+• Planned Value (PV) – that portion of the approved cost estimate planned to be spent on the given activity during a given period
+• The Earned Value (EV) – the value of the work actually completed
+• Actual Cost (AC) – the total of the costs incurred in accomplishing work on the activity in a given period
+
+Schedule Variance  Analysis – Uses EV and PV to calculate a variance to the project schedule
+
+Cost Variance  Analysis – Uses EV and AC to calculate a variance to the project schedule
+
+4.Understand agile planning principles
+
+• Takes a significantly different flavour from traditional approaches
+• Detailed planning is deferred until the start of the iteration 
+– Designed to handle change 
+– An iteration includes all phases (requirements, design and test)
+• Planning is based on light weight lists 
+– Gantt and PERT charts are considered less useful
+
+• Plan short iterations
+• Deliver working software
+• Use “Just in time (JIT) planning” – next iteration
+• Use the team
+
+planning in Scrum see L6: page 66
+
+• Assumptions in Formal Planning: 
+– Scope fixed – requirements are stable 
+– Budget fixed – cost estimations are accurate 
+– Schedule fixed  - derived based on scope and budget
+
+• Agile Planning 
+– Recognizes that all three factors: scope, budget and time cannot be fixed in reality - not recommended 
+– Can we fix scope and date and make the budget flexible? 
+• Not really because increasing the budget, hence the resources will not always help to improve speed – not recommended 
+– So what are our options? 
+• Fix date and budget and have the scope flexible Fixed-Date release planning
+• Fix scope and have the date and budget flexible – Fixed-Scope release planning
+
+fixed-date release planning see L6: page 69-70
+
+

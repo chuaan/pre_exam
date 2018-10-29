@@ -1,0 +1,180 @@
+1.Understand motivation
+
+• Motivation is derived from the word ‘motive’ 
+• It is the driving force within individuals that propels them into action
+
+Money, praise, promotion
+
+2.Understand organisational theory and how people are motivated
+
+Organisational Theory
+Organisational theory consists of approaches to organisational analysis. Organisations are groups of individuals that are structured and managed to meet a need, or to pursue collective goals.
+Some well used approaches: 
+• Maslow Hierarchy of Needs 
+• Hertzberg
+
+Maslow Hierarchy of Needs: see L3: page 31
+• Proposed by Abraham Maslow in 1943 and still widely used today
+• A key tool used by managers in how individuals are motivated
+• Focuses on a 5 tier model of human needs
+• Describes humans are motivated to achieve certain needs
+• Needs take precedence over others and the basic needs must be more or less met before higher needs
+• Individual behaviour is multi-motivated and stimulated by more than one need
+
+Hertzberg Two Factor Theory: see L3: page 32
+• Proposed by Fredrick Hertzberg in 1959 and still widely used today
+• Asked people to describe situations when they felt really good and really bad about their jobs
+• There are a set of factors in the workplace that cause satisfaction
+• And a separate set of factors that cause dissatisfaction 
+• Remedying the causes of dissatisfaction will not create satisfaction
+• Adding the factors of job satisfaction eliminate job dissatisfaction
+
+Comparing Maslow & Hertzberg Theories? see L3: page 33
+
+3.Understand how leaders lead and managers manage
+
+• Leadership is the ability to influence and direct people to achieve a common goal 
+• Management is the process where resources are used and decisions made in order to achieve the goal 
+• Leaders will inspire and motivate people to meet the goal 
+• Managers will set objectives and decide how achieve them 
+• Project Managers will need to be both Leaders & Managers
+
+Power:
+Referent: based on followers' identification and liking for the leader. a schoolteacher who is adored by her students has referent power
+Expert: based on followers' perceptions of the leader's competence. a tour guide who is knowledgeable about a foreign country has expert power
+Legitimate: associated with having status or formal job authority. a judge who administers sentences in the courtroom exhibits legitimate power
+Reward: derived from having the capacity to provide rewards to others. a supervisor who gives rewards to employees who work hard to using reward power.
+Coercive: derived from having the capacity to penalize or punish others. a coach who sits players on the bench for being late to practice is using coercive power.
+
+Influence:
+1. Authority: Legitimate hierarchical.
+2. Assignment: Perceived ability to influence future work assignments.
+3. Budget: Perceived ability to authorise use of funds.
+4. Promotion:Ability to improve workers position
+5. Money:Ability to increase a workers pay & benefits
+6. Penalty:Ability to cause punishment. 
+7. Work Challenges:Ability to assign work to individuals.
+8. Expertise: Perceived special knowledge that others deem / think is important.
+9. Friendship:Ability to establish friendly personal relationships.
+
+4.Understand how to manage the most important project resource
+
+The Seven Habits of Highly Effective People [Stephen Covey] 
+Manage yourself
+1. They Take Initiative. [“Be Proactive”] 
+2. They Focus on Goals. [“Begin with the End in Mind”] 
+3. They Set Priorities. [“Put First Things First”] 
+Lead others
+4. They Only Win When Others Win. [“Think Win/Win”] 
+5. They Communicate. [“Seek First to Understand, Then to Be Understood”] 
+6. They Cooperate. [“Synergise”] 
+Unleash protential
+7. They Reflect on and Repair Their Deficiencies. [“Sharpen The Saw”]
+
+• Individuals are individuals and we are all motivated by different means 
+• Projects succeed / fail because of people so manage, lead and motivate them to increase success 
+• Leadership and Management are different. Consciously select the style that is right for the situation 
+• The biggest impact you can have is by managing yourself take the necessary step to achieve this
+
+5.Understand why we use teams and their value
+What is a Team
+• An individual is a person with a unique set of skills 
+• A Group is a collection of people working together who do not necessarily work collectively toward the same goal 
+• A Team is two or more individuals consciously working together to achieve a common objective 
+• A Group becomes a Team when members demonstrate a commitment to each other and to the end goal toward which they are working
+
+Why Teams
+1.Few individuals possess all the knowledge, skills, and abilities needed to accomplish all tasks.
+2.Complementary teamwork skills are one of the most commonly required skills in the work environment.
+3.Substantial benefits to the organisation and to the team members.
+4.Shared accountability increases likelihood of success.
+
+Benefits 
+1. Enhanced Opportunities: Individuals & organisation.
+2. Greater Productivity: Leverage the strengths and skills of the collective group.
+3. Increased Ownership & Accountability: Multiple people collectively owning the activity and the outcome.
+4. More Creativity and Innovation: Individuals build upon one another’s ideas with solutions going beyond one person’s vision of what’s possible.
+5. Greater Joy and Satisfaction Among Team Members: A space for people to socialise, connect and be part of something bigger.
+6. Broader Perspective: Ability to leverage the collective perspective of all team members.
+7. Increased Representation: Involvement of multiple stakeholders groups and their input.
+8. Increased Equality: Individuals across all levels can more freely offer their ideas, knowledge and concerns.
+9. More Dialogue: Teams offer a site where people can voice their feelings, disagreements, opinions and ideas.
+
+6.Understand how teams form and perform
+
+Tuckman’s Team Development Model
+• First proposed by Bruce Tuckman in 1965 
+• Elegant and simple explanation of team development 
+• Initial model focused on 4 stages Forming–Storming–Norming- Performing 
+• Tuckman stated that all phases are necessary and inevitable if a team is to grow, face up to challenges, tackle problems, find solutions, plan work and deliver results 
+• He found that it was critical for team to go through an Adjourning stage which was added in the 70’s
+
+see L3: page 53
+
+• As teams develop maturity and ability – leadership styles change and behaviors change
+• Tuckman also found that Team Effectiveness changed over time with the team experiencing initial decline in performance after Stage 1 – Forming
+
+forming->storming->norming->performing->adjourning
+
+Positive signs 
+• Clear communication 
+• Regular brainstorming with all members participating 
+• Consensus among team members 
+• Problem solving done by the group 
+• Commitment to the project outcomes and the other team members 
+• Regular team meetings are effective and inclusive 
+• Timely hand off from team members to others or early advise if this won’t happen 
+• Positive, supportive working relationships
+
+Not so Positive signs 
+• Lack of communication 
+• No clear roles and responsibilities 
+• Work is “thrown over the wall”, with lack of concern for timelines or work quality 
+• Team members work alone, rarely sharing information and offering assistance 
+• Blame for what goes wrong, no one accepts responsibility 
+• Lack of support for others 
+• Frequently absent impacting time and creating additional work for other
+
+7.Understand team structures
+
+Controlled Centralised see L3: page 58
+• Leader coordinates tasks and directs work 
+• Communication and Control are vertical 
+• Sub-teams with leaders to direct and guide sub-groups
+
+Controlled Decentralised see L3: page 59
+• Leader coordinates tasks 
+• Sub-teams with leaders 
+• Communication horizontal Control is vertical 
+• Problem solving  is a team task
+
+Democratic Decentralised see L3: page 60
+• No permanent leader 
+• A coordinator is appointed for short durations 
+• Communication and Control are horizontal
+
+SWAT Team see L3: page 61
+• No permanent leader 
+• A highly specialised team 
+• Put together for a particular tasks e.g. 
+- Build a prototype, - Production problem
+
+Scrum Team see L3: page 62
+• Used in Agile
+
+8.Understand the advantages and disadvantages of teams
+
+Advantages 
+• Provides a larger pool of ideas – creative & collective problem solving 
+• Interaction enhances the knowledge of the whole team 
+• Individuals working together can stimulate performance, motivation and output 
+• Provides continuity across the tasks if people leave 
+• Increased ownership of the overall outcome & not just the individual component
+Disadvantages 
+• It take time, effort and great skill to effectively manage 
+• Some individuals find it difficult and may become overshadowed / overwhelmed 
+• Unequal involvement - Some people may not pull their weight 
+• One person can demoralise the whole team 
+• Social loafing 
+• Group think
+

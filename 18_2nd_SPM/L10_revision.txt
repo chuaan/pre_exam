@@ -1,0 +1,133 @@
+1.Understand the role of configuration management
+
+• Software projects generate a large number of different types of artefacts 
+
+
+– e.g.:
+
+• There are dependenciesbetween all of these artefacts. 
+
+
+– For example, a code module may depend on a design element such as a class diagram or state chart, as well as on a design element such as a design class diagram. In turn these may depend on a combination of textual requirements, use-cases and analysis classes.
+• Software Configuration: 
+
+
+– total of all the artefacts; 
+
+
+– their current state; and 
+
+
+– thedependencies between them. 
+
+• If we make a change to an artefact,  it may impact all of that artefact’s dependencies
+• If we are not careful then changes to artefacts may leave the configuration in an inconsistent state 
+
+– For example, a change to the requirement will have an impact on the system design and all of the code modules that depend on the design. Also, the test plan, test cases and testing scripts for the code will also be impacted. The danger is that we may change one module without changing one of its dependent modules leaving the configuration inconsistent.
+
+• The aim of configuration management is to manage change properly without losing overall consistency through: 
+– establishing processes; 
+– setting up repositories; and 
+– using  other appropriate tools and techniques
+• Configuration Management (CM) addresses the following: 
+– How do we manage requests for change? 
+– What and where are the software components? 
+– What is the status of each software component? 
+– How does a change to one component affect others? 
+– How do we resolve conflicting changes? 
+– How do we maintain multiple versions? 
+– How do we keep the system up to date?
+
+
+2.Understand the configuration management processes
+
+CM Aims: 
+1. To identify all items that collectively will make up the configuration 
+2. To manage changes to one or more of these items so that the collection remains consistent 
+3. To manage different versions of the product 
+4. To assure software quality as the configuration evolves over time
+
+• Identification 
+– the configuration items necessary for the project are identified 
+• Version control 
+– processes and tools are chosen to manage the different versions of configuration items as they are developed 
+• Change control 
+– changes that affect more than just one configuration item are managed 
+• Configuration auditing 
+– the consistency of the configuration is checked 
+• Configuration reporting 
+– the status of configuration items is reported
+
+3.Understand the tasks associated with configuration management
+
+• The set of artefacts that require configuration management are called the configuration items 
+
+• Configuration Items: 
+– Basic 
+– Aggregate 
+– Derived
+
+• A typical list of configuration items 
+– requirements specifications, requirements models, sections of the requirements specification, and individual requirements 
+– use-cases, user stories 
+– design models, design documents, design elements, and class designs 
+– source code modules 
+– object code modules 
+– release modules 
+– software tools 
+– test drivers and stubs, and test scripts 
+– documents or sections of documents associated with the project
+
+• Requirements for a version control system: 
+1. A repository for storing configuration items 
+2. A version management function that allow software engineers to create and track versions, and roll the system back to previous versions if necessary – e.g. git, svn, cvs 
+3. A make-like facility that allows engineers to collect all of the configuration objects for a particular target together and to build that target – e.g. Apache Maven,  Apache Ant, make (unix, linux)
+
+• SCM information is maintained in a repositoryor configuration database
+
+Version: An instance of a model, document, code, or other configuration item which is functionally distinct in some way from other system instances. 
+Variant: An instance of a system which is functionally identical but non-functionally distinct from other instances of a system. 
+Release: An instance of a system which is distributed to users outside of the development team.
+
+• Derivation History: 
+– This is a record of changes applied to a configuration object 
+• Each change should record: 
+– the change made 
+– the rationale for the change 
+– who made the change 
+– when it was implemented
+• A common method of tracking versions in a repository is through version numbering 
+– Version numbers could have meanings 
+– for example a reviewed version of a document (major versions) vs un-reviewed changes 
+
+• Change Management Plan 
+– A part of an overall configuration management plan to specifically control these changes to the configuration 
+– Changes must be made in a way that allows everyone on the project team to find out: 
+• exactly what changes need to be made 
+• what they need to do to affect the change 
+• why the change is being made 
+• how it will impact them
+More importantly, in distributed control structures, some changes may need to be carefully negotiated so that everyone understands the need for the change and supports it
+
+initial the change -> evaluate the change -> make the change
+
+• Baseline 
+– A baseline is an artefact that is stable 
+– It  has been formally reviewed and agreed upon, that is now ready for future development 
+– It can only be changed through a formal change management procedure
+
+• Configuration audits: 
+– complement the other configuration management activities by assuring that what is in the repository is actually consistent and that all of the changes have been made properly
+
+• Status Reporting 
+– Is a common way for large projects to keep track of the status of the repository 
+– The idea is to review the configuration objects for consistency with other configuration objects, to find any omissions or to look for potential side effects 
+– Status reporting can take many forms, but most commonly the aim is to report on the status of the configuration items of interest and the baselines that have been achieved 
+• For example, we may have a design element that is in one of the states: not-initiated, initial-work, modified, approved, baselined 
+– the status report can compare the state with what is in the project schedule
+
+
+
+
+
+

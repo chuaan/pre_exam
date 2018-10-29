@@ -1,0 +1,244 @@
+1.Understand the communication challenge
+
+• How do we communicate? 
+• I will pass a message to someone in the front who will then whisper it to the person next to them. You will each repeat it throughout the lecture 
+• At the end of the lecture I will ask the person who last received the message to share with us what they heard 
+• There is no right or wrong answer – our objective is to see how we communicate a straight forward message
+
+Individual
+•Semantics [meaning] 
+•Perception [interpretation] 
+•Communication Channel 
+•Feedback 
+•Anxiety 
+•Culture 
+
+Team
+•Status 
+•Silos 
+•Information Overload 
+•Lack of Communication 
+•Protocol [rules]
+
+2.Understand the importance of listening
+
+Hearing is the act of perceiving sound by the ear.
+Listening requires concentration and is the process of taking in what you hear and mentally organising it so it makes sense.
+
+Listening is An Essential Life Skill
+Truly Effective Listeners are Rare
+Few People Practice Listening and Even Fewer Have Been Trained to Listen
+The Act of Listening Demands Real Effort
+
+• Why Do We Listen? 
+– Promotes problem-solving abilities 
+– Demonstrates acceptance of others 
+– Builds and retains trust in relationships 
+– Increase speaker’s receptiveness to thoughts and ideas of others 
+– Increases self-esteem of the speaker helps you evaluate messages 
+– Helps you understand and retain information 
+– Allows you to help others
+
+• The Process of Listening 
+– Predicting [some expected outcome] 
+– Receiving 
+– Assigning meaning 
+– Assess / Validate 
+– Remembering
+
+• Types of Listening 
+
+– Passive Listening – Lectures 
+• Taking in the information without processing or reacting 
+
+– Active or Empathetic Listening – Tutorials 
+• Shows interest 
+• Asks questions 
+• Avoid distractions 
+• Use direct eye contact 
+• Do not interrupt 
+• Read both verbal and nonverbal messages
+
+– Critical Listening – Problem Solving 
+• Determine speaker’s motive 
+• Challenge and question ideas 
+• Distinguish fact from opinion 
+• Recognise your own bias 
+• Evaluate the message
+
+• Challenges to Listening 
+– Physiological limitations 
+– Inadequate background information 
+– Selective memory or expectations 
+– Fear of being influenced / persuaded 
+– Bias and being judgemental 
+– Boredom or interference from emotions 
+– Partial listening and distractions 
+– mobile phones 
+– Cultural differences [understanding the spoken words]
+
+• The Importance of Active Listening 
+– Shows the speaker you are concerned or interested 
+– Leads to getting better information 
+– Encourages further communication 
+– Has the potential to enhance relationships 
+– Can calm down someone who is upset 
+– Invites others to listen to you 
+– Leads to better co-operation and problem solving
+
+3.Understand the importance of communicating effectively and some key skills
+
+• Communication Skills are critical in Project Management 
+– Verbal communication [including listening] 
+– Delivering presentations / updates 
+– Recognising, defining and solving problems 
+– Motivating and influencing others 
+– Delegating 
+– Setting goals & articulating a vision 
+– Self-awareness 
+– Managing conflict 
+– Networking
+
+• Why Is This Important? Because successful Project Managers must have the ability to: 
+– “Read” their client 
+– Run a meeting 
+– Communicate (written & orally) thoughts accurately 
+– Manage the team 
+– Manage yourself 
+– Influence your environment 
+– Communicate, ensure alignment and buy-in to purpos
+
+4.Understand a communications plan and how it is used
+
+• A large proportion of a Project Managers time is spent on communication 
+• Project Managers use a Communications Plan to assist them in managing and coordinating key communication messages 
+• A good project Communication Management Plan: 
+– Ensures communications is effective and efficient 
+– Allows the Project Manager to be pro-active 
+– Set a common understand of what will be done and when 
+– Clarifies who is responsible for key items, what will be delivered 
+
+A Communications Management Plan defines: 
+• What information will be communicated - detail and format 
+• Communication Channel - meetings, email, telephone, web portal, etc. 
+• When information will be distributed – frequency of formal and informal comms 
+• Who is responsible 
+• Communication needs of stakeholders 
+• Resources the project will allocate for communication 
+• How sensitive or confidential information will be communicated & who will authorise this 
+• The flow of project communications 
+• Any constraints (internal or external) which affect project communications 
+• Any standard templates, formats, or documents the project must use 
+• Escalation process for resolving any communication-based conflicts or issues
+
+5.Understand key communication considerations
+
+• 58% of communication is through body language
+• 35% of communication is through how the words are said
+• 7% of communication is through content or words that are spoken
+• Pay attention to more than just the actual words
+• A person’s tone or voice and body language can say a lot about how they really feel
+• Non verbal comms govern how other people feel about us and also how we feel about ourselves
+
+• Rarely does the receiver interpret a message exactly as the sender intended 
+• Geographical location and cultural background affect the complexity of communications 
+–Different working hours 
+–Language barriers 
+–Different cultural norms 
+• Manage Conflicts Effectively 
+• Develop Better Communication Skills – practice & feedback 
+• Choose the channel appropriately
+
+• Determine if Meeting Can Be Avoided 
+• Define the Purpose and Intended Outcome 
+• Determine Who Should Attend the Meeting 
+• Provide an Agenda [before the meeting] 
+• Prepare any Handouts or Visual Aids 
+• Control the meeting – Focus discussions on agenda topics 
+• Set Ground Rules – Only one person at a time talking 
+• Summarise actions, dates, owners and next steps as you go – via an Action Register 
+• Follow up formally with scheduled activities to ensure progress
+
+Conflict is the single most undermanaged activity and if left unresolved will destroy a project. 
+• Key causes within a Project 
+– Schedule 
+– Project Priorities 
+– Manpower 
+– Technical 
+– Administration
+ – Personality 
+– Cost
+
+1. Definition / Mobilisation Phase • Disputes / Conflict can occur: 
+o Relative importance of this project against other projects 
+o Which Project Management / SDLC methodology should be used 
+o Key personnel to lead and drive this activity – who is available and who do we want 
+o High level costs, benefits, timelines and milestones
+2. Planning Phase
+• Disagreements / Conflict include: 
+o Final schedule, cost, timelines, deliverables 
+o Availability of resources and when they are required
+o Spending funds before projects are formally approved 
+o Decisions rights 
+o Technical requirements / solutions to be used
+3. Execution Phase • Disputes / Conflict can occur: 
+o Schedule slippage, technical problems, quality and staffing 
+o Missed milestones 
+o Resource allocation – when are they required compared to when were they planned for – due to delays 
+o Management of 3rd party suppliers / external companies engage to deliver services
+4. Delivery Phase• Disagreements / Conflict include: 
+o Schedule, quality and costs 
+o Scope – what was expected / removed 
+o Missed milestones 
+o Release windows 
+o Staff burnout
+
+6.Understand the Stakeholder Management Process
+
+Project Stakeholder Management Process 
+• Identifying Stakeholders 
+• Planning Stakeholder Management 
+• Managing Stakeholder Engagement
+
+7.Identifying Stakeholders and the Stakeholder Register
+
+Internal Stakeholders 	External Stakeholders 
+Shareholders		 Customers
+Employees 		Suppliers
+Board Members 		Governments 
+Business Managers		 Unions
+Project Manager 		Public [Local Communities or General Public]
+Management		Other Related Institutions [e.g. Financial] 
+Project Team 		Competitors
+
+• Identification information: The stakeholders’ names, positions, locations, roles in the project, and contact information
+• Assessment information: The stakeholders’ major requirements and expectations, potential influences, and phases of the project in which stakeholders have the most interest
+• Stakeholder classification: Is the stakeholder internal or external to the organisation? Is the stakeholder a supporter of the project or resistant to it?
+
+Name Position Internal/External Project Role Contact Information 
+
+8.Understand Stakeholder Engagement and Planning
+
+Levels of Stakeholder Engagement 
+• Unaware: Unaware of the project and its potential impacts on them 
+• Resistant:Aware of the project yet resistant to change 
+• Neutral:Aware of the project yet neither supportive nor resistant 
+• Supportive:Aware of the project and supportive of change 
+• Champion / Leading:Aware of the project and drives change
+
+The stakeholder management plan can include: 
+• Current and desired engagement levels 
+• Interrelationships between stakeholders 
+• Communication requirements 
+• Potential management strategies for each stakeholder 
+• Methods for updating the stakeholder management plan
+
+Stakeholder Analysis includes: 
+• Names and Organisations of Key Stakeholders 
+• Their Role on the Project 
+• Unique Facts about Each Stakeholder 
+• Level of Interest in the Project 
+• Influence on the Project 
+• Suggestions and Strategies for Managing Relationships with each Stakeholder
+
+

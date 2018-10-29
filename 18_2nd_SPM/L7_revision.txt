@@ -1,0 +1,101 @@
+1.Understand the importance of cost estimation and the challenges involed
+
+• What is estimation? 
+– Is the process of finding an estimate, or approximation, which is a value that can be used for some purpose even if input data may be incomplete, uncertain, or unstable
+• What is software cost estimation? 
+– Estimation of  how much money, effort, resources, and time it will take to build a specific software based system or product
+• Why is it Important? 
+– Would you build a house without knowing how much you were about to spend - of course not 
+– Since most software systems cost considerably more to build than a large house, it would seem reasonable to develop an estimate before you start creating the software
+
+challenges
+
+• There is no exact science for cost estimation – it will never be considered as all accurate
+• No person can reasonably predict what can go wrong in the project
+• Most estimation methods assume things will proceed as expected and simply adds some slack to account for what can go wrong
+
+solutions
+
+1. Delay estimation – 100% accuracy at the end of the project but less useful!
+2. Base estimation on data from  previous projects that have been completed
+3. Break the system to smaller parts and generate the estimates for smaller parts, which is easier
+4. Use empirically-based estimation methods
+
+2.Understand the techniques used for cost estimation
+
+1. Expert judgement 
+– Several experts on the proposed software development technique and the application domain estimate project cost. These are then discussed, compared and adjusted until consensus is reached 
+– Some expert judgement techniques involve polling each expert independently, in some cases for three estimates, pessimistic estimate (p), optimistic estimate (o) and the most likely estimate (m), and the expert’s estimate is computed as the: 
+𝑒 = Τ (𝑝 + 4𝑚 + 𝑜) 6 
+– Delphi technique: asks several experts to make an individual judgement of the effort using any method they wish. Then, the average effort is calculated, and presented to all of the experts. Each expert is then given a chance to revise their estimate, in some cases after a discussion between all experts. This continues until no expert wishes to revise their estimate.
+
+2. Estimation by Analogy 
+– The cost of a new project is estimated based on similar projects in the same application domain 
+
+3. Parkinson’s Law 
+– This law states that the work will expand to fill the time available 
+– The cost is determined  by available resources rather than by objective assessment 
+– For example, if the software is to be delivered in 12 months, and 3 people are available, the effort is 36 person months
+
+4. Pricing to win 
+– The cost is estimated to be whatever the customer has available to spend on the project - cost depends on the budget not on the software functionality
+
+5.  Algorithmic cost modelling 
+– A model is developed using historical cost information based on some software metric (usually its size) to the project cost 
+– When a project effort needs to be estimated, an estimate of the metric is computed 
+– Using the model, the effort is predicted 
+– The most general form of an algorithm cost estimate is given by:
+𝐸𝑓𝑓𝑜𝑟𝑡 = 𝐴 × 𝑆𝑖𝑧𝑒^𝐵 × 𝑀
+𝐴 - a constant factor that depends on the organizational practices 𝑆𝑖𝑧𝑒 - 
+size of the software estimated in a metric of choice (e.g. lines of code, function point, use case points) 
+𝐵 - a value between 1 and 1.5 derived experimentally 
+𝑀 − a multiplier made by combining process, product and developmet attributes such as stability of requirement, experience of the team
+
+Basic steps in algorithmic cost  estimation
+1. Estimate the size of the development product 
+2. Estimate the effort in person-months or person-hours 
+3. Estimate the schedule in calendar months 
+4. Estimate the project cost in agreed currency
+
+3.Understand software size estimation techniques
+
+• Commonly used metric for software size estimation 
+– Source Lines of Code (SLOC) • Based on code 
+– Function Points (FP) • Based on the Requirements Specification 
+– Use-case Points (UCP) • Based on Use Cases 
+
+• There are two types of  SLOC: 
+– Physical SLOC: Count the number of lines excluding comments and blank lines 
+– Logical SLOC: Measure the number of executable "statements", but their specific definitions are tied to specific computer languages
+
+• Advantages of SLOC: 
+– Scope for Automation of Counting: Since Lines of Code is a physical entity it is easy to count and can be automated using a tool 
+– An Intuitive Metric: Lines of Code serves as an intuitive metric for measuring the size of software because it can be seen and the effect of it can be visualized
+
+• Disadvantages of SLOC: 
+– Variability: Depends on programmer experience, programming language, framework support (auto generated code), reuse, etc. 
+– It is difficult to estimate the number of lines of code that will be needed to develop a system from information that is available in analysis and design phases 
+– Lack of a universally accepted definition for exactly what a line of code is
+
+Function Points (FP)
+• Is used to express the amount of functionality in a software system, as seen by the user 
+• A higher number of function points indicates more functionality 
+– Empirical evidence demonstrates that there is a positive correlation between function points and the complexity of the system 
+• Typically used to: 
+– Estimate the cost and effort required to design, code and test a software system 
+– Predict the number of errors 
+– Predict  the number of components 
+– Measure productivity 
+• Function points are computed from the Software Requirements Specification (SRS)
+
+• Software Requirements Specification (SRS) 
+– A document that specifies what is expected of a software system; referred to as the requirements of the system
+– It contains: 
+• Functional Requirements: 
+– Specify the functions that are required in the system
+• Non-functional Requirements: 
+– Specify requirements that are not directly functions, such as performance, reliability, scalability etc. (quality requirements)
+
+略
+
+
