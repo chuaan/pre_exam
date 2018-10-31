@@ -1,0 +1,109 @@
+Q1
+- present what is accomplished during the sprint
+- identify areas of improvement
+- take the form of a demo of new features or underlying architecture
+
+- whole world, all stakeholders, scrum master, product owner, the team
+
+- After the sprint
+
+Q2
+Product owner :
+- accept or reject
+- decide requirements
+- release date and content
+- responsible for benefits of the product
+- prioritise features
+- adjust features and priority every iteration
+Scrum Master:
+- enacting Scrum values and practices
+- reprensent the management of the team to the project
+- remove impediments/ road blocks
+- ensure that the team is fully functional and productive
+- enables close cooperation across all roles
+- shields the team from external interferences
+- is a member and active participant of the scrum team
+the Team:
+- full time 
+- cross-funcionally do programing testing and so on 
+- be self-organizing and comunicating
+- co-located
+
+Q3
+
+- a graphical representation of work left to do versus time
+- user stories are often on the vertical axis, time along the horizontal.
+- used to predict when all of work will be completed
+
+Q4
+
+- the stability of the requirements
+- the time of the project
+- location of members
+- whether members are experienced
+- stakeholders' collaboration
+- time line aggressive or conservative
+- size of the project
+
+Q5
+
+Power:
+Referent: based on followers' identification and liking for the leader. a schoolteacher who is adored by her students has referent power
+Expert: based on followers' perceptions of the leader's competence. a tour guide who is knowledgeable about a foreign country has expert power
+Legitimate: associated with having status or formal job authority. a judge who administers sentences in the courtroom exhibits legitimate power
+Reward: derived from having the capacity to provide rewards to others. a supervisor who gives rewards to employees who work hard to using reward power.
+Coercive: derived from having the capacity to penalize or punish others. a coach who sits players on the bench for being late to practice is using coercive power.
+
+Influence:
+1. Authority: Legitimate hierarchical.
+2. Assignment: Perceived ability to influence future work assignments.
+3. Budget: Perceived ability to authorise use of funds.
+4. Promotion:Ability to improve workers position
+5. Money:Ability to increase a workers pay & benefits
+6. Penalty:Ability to cause punishment. 
+7. Work Challenges:Ability to assign work to individuals.
+8. Expertise: Perceived special knowledge that others deem / think is important.
+9. Friendship:Ability to establish friendly personal relationships.
+(too much, but not know which should be answered)
+
+Q6
+
+?
+analyze
+identify
+react and respond
+control and monitor
+
+Q7
+
+not know
+
+Q8
+
+1: 
+- stable requirements
+- huge project
+- expert document
+
+2:
+- the risk may be very dangrous
+
+3:
+- 
+
+Q9
+略
+
+1.1-2.1-2.2-2.3-3-4
+
+Q10
+
+not know
+
+Q11Q12
+略
+
+
+
+
+

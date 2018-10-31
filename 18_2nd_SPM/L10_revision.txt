@@ -125,9 +125,3 @@ initial the change -> evaluate the change -> make the change
 – Status reporting can take many forms, but most commonly the aim is to report on the status of the configuration items of interest and the baselines that have been achieved 
 • For example, we may have a design element that is in one of the states: not-initiated, initial-work, modified, approved, baselined 
 – the status report can compare the state with what is in the project schedule
-
-
-
-
-
-
