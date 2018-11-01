@@ -1,4 +1,4 @@
-Q1:A:
+﻿Q1:A:
 
 Shared printer: in a small company, there is only one shared printer. When someone wants to print, they can send documents into the printer through the network. Then the printer will print out the document
 Shared disk: if one disk is shared, everyone allowed to use the disk can use the disk through the network.
@@ -183,6 +183,8 @@ public class MathClient {
 
 Q5:A:
 
+Encapsulation, protection and concurrent access and management of node resources.
+
 Run only that system software at each computer that is necessary for its particular role in the system architecture
 Allow the software implementing any particular service to be changed independent of other facilities
 Allow for alternatives of the same services to be provided, when this is required to suit different users or applications
@@ -198,6 +200,8 @@ Each layer of code is given access to only the lower-level interfaces it require
 Layering makes it easier to enhance the operating system. One entire layer can be replaced without affecting other parts of the system. 
 
 Q6:A:
+
+cache
 
 NFS?
 AFS?
