@@ -1,0 +1,171 @@
+Q1：
+
+(a) yes free or fre (b) yes rea (c) no (d) yes
+
+Q2:
+
+(a)
+
+problem: find string which is close(closest) to match the string we want to search.
+
+strategy: Neighbourhood edit-distance n-gram soundex
+
+(don't know how to describe)
+
+(b)
+
+Because for a word which is misspelled, the closest word in the dictionary may not be the real meaning. The result of "approximate string search" is also not always right.
+
+Q3
+
+(a)
+
+word     A      B     C
+it       1      0     0
+happen   1      0     0
+over     3      1     4
+and      2      1     0
+again    1      0     0
+under    0      1     0
+in       0      1     0
+out      0      1     0
+
+(b)
+
+over AND and AND out = 111 AND 110 AND 010 = 010 = B
+
+(c)
+word   it   happen   over   and   again   under   in   out
+A      1    1        3      2     1       0       0    0
+B      0    0        1      1     0       1       1    1
+C      0    0        4      0     0       0       0    0
+Q      0    0        1      1.5   0       3       0    0
+
+AQ/|A||Q|=(3+3)/(4*sqr(12.25))=1.5/sqr(12.25)
+BQ/|B||Q|=(1+1.5+3)/(sqr(5)*sqr(12.25))>2/sqr(12.25)
+CQ/|C||Q|=(4)/(4*sqr(12.25))=1/sqr(12.25)
+B>A>C
+
+Q4:
+
+(a)
+
+The weight of the document for the query is stored.
+
+For a document d and for every word of a query, do an accumulation in the corresponding accumulation. Finially make the result divided by the weight of d to get the finaly weight to rank.
+
+(b)
+
+Because the values of many accumulations are very small. These accumulations are meaningless, so ranked querying will do not accmulate all documents.
+
+(c)
+
+1. only set limited number L of accumulators. If the number of documents are smaller than or eqully to L, all documents will be used to rank. if larger, the left documents will not be used.
+
+2. set a threshold S, only if the wqt*wdt > S, will the accumulator be used for the document.
+
+Q5:
+
+(a)
+
+hard: classify all soft: the isolated two are not rightly classified
+
+(b)
+
+no, the soft margin can accept the misclassificiation of difficult or noisy examples, but the hard marin cannot accept.
+
+(c)
+
+the data is linearly separable.
+There are only two classes
+
+(d)
+
+primal: w and b. find the min ||w||^2 /2 from yi(xi*w+b)-1 >= 0
+
+dual: w b and α. see Lecture 16-17 duality formulation
+
+Q6:
+
+morning -> pastry
+coffee -> pastry
+
+Q7:
+
+merge p4 p5
+merge p1 p2
+merge p3 to p4 p5
+merge p1 p2 and p3 p4 p5 
+
+Q8:
+
+assume that the probability of observing the conjunction of attributes is equal to the producct of the individual probabilities. conditional independece assumption.
+This assumption is necessary to make the problem tractable, where finding reliable estimates of the joint distribution of features requires more data than we are likely to have.
+In reality, it is hard to find attributes which are all independent.
+
+Q9:
+
+(a)
+
+1-2+3log3 /4
+
+first a3 then a1, a2 is useless
+
+(b)
+
+no
+
+the a2 is useless some cannot be classified by the three attributes
+
+Q10:
+
+initialise the weights w to smal random values
+Repeat
+	for each data
+		forward pass: calculate hidden hi and output oj values
+		vackward pass:
+			calculate error between ok and tk at out.
+			update the weights in each layer wij(in proportion to their effect on the rror using gradient descent wi<- wi -)
+		Until network has converged
+
+learning rate parameter is used to control the update of weights in a stable manner
+		
+Q11:
+
+(a)
+i. inappropriate, too many classes
+ii. inappropriate, too many instances
+iii. appropriate
+iv. appropriate
+
+(b)
+
+yes, maybe some books have never been borrowed. Can use Filters to remove some irrelevant attributes or inter-dependence of features
+
+(c)
+
+accuracy
+precision
+recall
+F-score
+
+zero-Rule
+
+(e)
+
+Collaborative filtering. Because in this data set, there are not features of books to get their similarities.
+
+(f)
+
+there are too many books but most people only borrow a few books. 
+
+many items to choose from
+very few recommendations to propose
+few data per user
+no data for new user
+very large datasets
+
+(g)
+
+Performance: when the student wants a recommendation, the system can reply fast.
+Relevant: Students can get the good recommendation

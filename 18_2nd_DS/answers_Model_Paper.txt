@@ -234,7 +234,7 @@ Q7:B:
 SSL provides key distribution and secure channels for Internet commerce depending on public-key cryptography.
 key exchange method: the method to be used for exchange of a session key: RSA with public-key certificates
 cipher for data transfer: the block or stream cipher to be used for data: IDEA
-message disgest function: for creating meesage authentication codes: SHA
+message digest function: for creating meesage authentication codes: SHA
 
 Q8:A:
 
