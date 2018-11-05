@@ -1,0 +1,158 @@
+Q1:
+
+(a)
+
+Crawling: the data to be searched needs to be gathered from the web
+Parsing: the data then needs to be translated into a canonical form
+Indexing: data structures must be built to allow search to take place efficiently
+Querying: the data structures must be processed in response to queries.
+
+(b)
+
+for crawling: there is not necessary to crawl the pages which have been searched
+
+Q2:
+
+(a)
+
+the: (1,2) (2,2)
+spain: (1,1) (2,3)
+cat: (1,3)
+in: (1,1) (2,3)
+hat: (1,1) 
+rain: (2,1)
+mainly: (2,1)
+plain: (2,1)
+
+(b)
+
+spain AND in AND hat = 11 AND 11 AND 10 = 10 = A
+
+(c)
+word  the  spain  cat  in  hat  rain  mainly plain
+Q     0    1      0    1   2    0     0      0
+
+AQ: (1+1+2)/(sqr(4+1+9+1+1)* sqr(1+1+4))
+BQ: (3+3)/(sqr(4+9+9+1+1+1)* sqr(1+1+4))
+
+AQ/BQ=1/1.8
+
+BQ>AQ
+
+(d)
+
+AQ>BQ
+
+because when ft = 1 the wqt = 0 so wqspain and wqin =0 so BQ=0
+
+Q3:
+
+
+
+can reference to https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision
+
+Q4:
+
+(a)
+
+In web search, a strong piece of evidence for a page's importance is given by likns, in particular how many other pages have links to this page
+
+(b)
+
+each web document has fixed number of credits associated with it, a portion of which it redistributes to documents it links to; in turn, it receives credits from pages that point to it.
+
+(c)
+
+page rank and fixed probabilioty. "random walks" and "teleport"
+
+Q5:
+
+17:sqr(5)
+27:2
+37:sqr(3)
+47:3
+57:sqr(2)
+67:3
+
+so the nearest 3 points are 5 3 2. for 5 3 tomorrow for 2 yesterday
+so the test instance's class is classified to tomorrow
+
+Q6:
+
+(a)
+
+Find hyperplan maximises the margin. Margin sum of shortest distances from the planes to the positive/negative samples
+
+(b)
+
+I dont know why there is no solution. there is a plain can divide two classes
+
+(c)
+
+Soft margin: the soft margin can accept the misclassificiation of difficult or noisy examples
+
+kernel function: use kernel function to euivalently change a non-linear problem into a linear problem which can be solved by SVM
+
+Q7:
+
+(a)
+
+the lower the GINI is, the better the node is. Try to divide the tree with each attribute, and select the lowest GINI's node.
+
+(b)
+
+first: ftw=2
+tomorrow
+
+(c)
+
+first:wtf>0
+second:ftw>2
+
+(d)
+
+not know
+
+Q8:
+
+(a)
+
+P(cj): can be estimated from the frequency of classes in the training examples
+P(x1,x2,...,xn|cj): O(|X|^n|C|) parameters
+for yesterday, P(tfw=0,ftw=0,wtf=0|yesterday)P(yesterday)=e/4
+
+(b)
+
+P(ftw=0|yesterday)=0?
+(not sure)
+
+Q9:
+
+(a)
+
+			actual   Y   N
+predict
+Y		    	     40  30
+N					 20	 10
+
+(b)
+
+Accuracy: 0.5
+
+(c)
+
+Precision of Y: 4/7
+
+Q10:
+
+(a)
+
+unsupervised
+
+(b)
+
+supervised. Do prediction
+
+(c)
+
+At first this is a new information of these date. This rule may guide the relationship of tfw and ftw. It is uncertain.
