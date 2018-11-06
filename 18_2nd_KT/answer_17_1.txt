@@ -130,10 +130,10 @@ Q9:
 
 (a)
 
-			actual   Y   N
+           actual   Y   N
 predict
-Y		    	     40  30
-N					 20	 10
+Y                   40  30
+N                   20  10
 
 (b)
 
