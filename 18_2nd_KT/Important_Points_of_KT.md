@@ -627,7 +627,182 @@ Anomaly/outlier detection
 
 **Recommendation System**  
 
+*Goal*
+>Relevant: Users are more likely to consume items they find Relevance  
+>Novelty: Recommender systems are truly helpful when the recommended item is something that the user has not seen in the past  
+>Serendipity: the items recommended are somewhat unexpected  
+>Increasing recommendation diversity: Diversity has the benefit of ensuring that the user dose not get bored by repeated recommendation of similar items  
 
+*Content-based recommendation*  
+>Suitable for text-based products  
+>Items are described by their features  
+>Users are described by the keywords in the items they brought  
+>Recommendations based on the match between the content and user keywords  
+>Similarity Measurements: cosine  
+>Pro: can recommend new items  
+>Con: Feature extraction can be difficult(music, movies)  
 
+*Collaborative filtering*
+>The task of predicting user preferences on new items by collecting taste information from many users  
+>User-based models: Similar users have similar ratings on the same item  
+>Item-based models: Similar items are rated in a similar way by the same user.  
+>Explicit opinion: rating score  
+>Implicit: purchase records or listen to tracks  
 
+*User based collaborative filtering*
+>Identify set of items rated by the target user  
+>Identify which ohter users rated 1+ items in this set  
+>Compute how similar each neighbor is to the target user   
+>Select k most similar neighbors  
+>Predict rating for the target user's unrated items (prediction function)
+>![avatar](Pictures_for_important/predict1.PNG) 
+>Recommend to the user the top N products based on predicted rating
+
+*User similarity pearson correlation*  
+>![avatar](Pictures_for_important/UserS.PNG) 
+
+*Item baased collaborative filtering*
+>Identify set of users who rated the target item i  
+>Identify which other items were rated  
+>Compute similarity between each nighbour and target item  
+>Select k most similar neighbours  
+>Predict ratings for the target item  
+>![avatar](Pictures_for_important/predict2.PNG) 
+
+*Similarity measure*
+>![avatar](Pictures_for_important/ItemS.PNG) 
+
+*Challenges*  
+>Many items to choose from  
+>Vary few recommendations to propose  
+>Few data per user  
+>No data for new user  
+>Very large datasets
+
+*Performance*  
+>Bottlneck: similarity computation  
+>Time complexity, highly time consuming with millions of users and items in the database  
+>Two step process: 
+>>Offline components/model: Similarity computation precomputed and stored  
+>>Online component: prediction on process
+
+---
+
+**Association Rules**
+
+*Association Rule Mining*
+>Given a set of transactions, find rules that will predict the occurrence of an item based on the occurrences of other items in the transaction  
+
+*Goal*
+>Anticipate the nature of repairs on its comsumer products    
+>Keep the service vehicles equipped with right parts to reduce the number of visits required by consumer households, and  
+>Offer gppd customers service
+
+*Approch*
+>Process the data on tools and parts required in previous repairs at different consumer locations, and  
+>Discover the co-occurrence patterns
+
+*Itemset*
+>A collection of one or more items  
+>k-itemset: an itemset that contains k items 
+
+*Support count*
+>Frequency of occurrence of an itemset  
+
+*Support*
+>Fraction of transactions that contain an itemset  
+
+*Frequent Itemset*
+>An itemset whose support is greater than or equal to a minsup threshold
+
+*Association Rule*
+>An implication expression of the form A->B, where A and B are itemsets: A,antecedent, B, consequent
+
+*Support and Confidence*
+>Support: fraction of trasactions that contain both A and B   
+>Confidence: measures how often items in A appear in transaction that contain B  
+>Example:
+>![avatar](Pictures_for_important/SC.PNG) 
+
+*Association Rule Mining Task*
+>Support >= minsup threshold  
+>Confidence >= minconf threshold
+
+*Brute-force approch*
+>List all possible association rules  
+>Compute the support and confidence for each rule  
+>Prune rules that fail the minsup and minconf thresholds  
+>Computationally prohibitive
+
+*Two-step approach*
+>Frequent Itemset Generation (still expensive)
+>Rule Generation
+
+*Apriori principle (do questions)*
+>if an itemset is frequent, then all of its subsets must also be frequent 
+>confidence of rules generated from the same itemset has an anti-monotone property c(ABC->D)>=c(AB->CD)
+
+*Hash Tree (try to understand)*
+
+*Limitations of Association Rules*
+>Only applicable to nominal attributes  
+>Comprehensibility of association rules  
+>Rule redundance  
+>Need for secondary evaluation of genuine interestingness of the rule  
+>Are the association rules what we want  
+
+*Classified*
+>useful: high quality, actionable information  
+>trivial: already known to anyone familiar with the context  
+>inexplicable: this which have no apparent explanation
+
+---
+
+**Neural Networks**
+
+*Benefits of Deep learning*
+>Robust: No need to design the features ahead of time - features are automatically learned to be optimal for the task at hand  
+>Robustness to natural variations in the data is automatically learned  
+>Generalizable: the same neural net approach can be used for many different applications and data types  
+>Scalable: performance improves with more data, method is massively parallelizable  
+
+*Artificial Neural Networks*
+>A collection of simple, trainable mathmatical units that collectively learn complex functions  
+>Given sufficient training data an artificial neural network can approximate very complex functions mapping raw data to output decisions 
+
+*Types of Deep Neural Networks*
+>DNN - all fully connected layers  
+>CNN(convolution Neural Networks) - some convolutional layers  
+>RNN(recurrent neural network) - LSTM  
+
+*Fundamentals of Neural Networks*  
+>Receive signals from input neurons: x1,x2,...,xn  
+>Weight signals according to the link strength between neurons: w1x1,w2x2,...,wnxn  
+>Add the input signals and bias:Σwixi+b  
+>Emit an output signal: activation function f 
+
+*Activation Functions*  
+>Activation functions add non-linearity to our networks's function  
+>Most real-world problems + data are non-linear  
+
+*Training a Network*
+>Find a set of weights so that the network exhibits the desired behaviour  
+
+*Error Function*
+>Measure the difference between actual output and expected output  
+>One popular measure: sum of squared error: E(input,weight,lable)= Σ(output-label)^2  
+>Note: Neural network is a composite/nested function that map the input to the output
+
+Obective:finding the weights w that minimise the difference between t and o for each of our training inputs
+
+back-propagation algorithm
+
+We repeatedly update the weights based on each example untile the weights converge
+
+*Adjusting Learning Rate*
+>Learning rate parameter is a small value to control the update of weights in a stable manner
+
+Please see workshop
+
+---
 Author: chuaan
