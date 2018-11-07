@@ -606,7 +606,7 @@ Anomaly/outlier detection
 
 *Measures of Node Impurity*
 >Misclassification Error: Error(t) = 1 - maxP(i|t)   
->Entropy(t) = -Σp(j|t)lpgp(j|t)  
+>Entropy(t) = -Σp(j|t)logp(j|t)  
 >GINI: GINI(t)= 1-Σ[p(j|t)]^2  
 
 *How good is a Split*

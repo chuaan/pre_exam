@@ -61,8 +61,34 @@ tags:
 **Q2**
 
 *(a)*
->
+>Facebook
 
+*(b)*
+>fed  
+>choose the most information gain node splite
 
+*(c)*
+>their accuracies are 0  
+>No  
+>(a): PF is still larger
+>(b): fed is still the first node
 
+*(d)*
+> these attributes are independent.  
+> The assumpted frequency of N in ele is 0, but in fact there is a sample's ele is N. So the assumption is invalid  
+
+*(e)*
+>Yes because subtree which has the fifth sample and does not hanve the second sample could make the prediction be Twitter  
+
+*(f)*
+>skip
+
+**Q3**  
+
+*(a)*
+>Because they are binary. Make Y =1 N =0
+
+others skip
+
+---
 Author: chuaan
