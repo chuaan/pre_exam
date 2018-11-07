@@ -457,6 +457,39 @@ Anomaly/outlier detection
 
 ---
 
+**Classification**  
+
+*Difinition*
+>Classification involves predicting a discrete class or classes.  
+>supervised: apre-classified training instances 
+
+*Linear regression*  
+>Linear regression cpatures a relationship between two variables or attributes  
+>It makes the assumption that there is a linear relationship between the two variables  
+>Regression can be applied when all variables/attributes are real numbers  
+
+
+*k-NN*
+>1-NN: Classify the test input according to the class of the closest training instance  
+>k-NN: Classify the test input according to the majority class of the k nearest training instances  
+>weighted k-NN: Classify the test input according to the weighted accumulative class of the k nearst training instances, where weights are based on similarity of the input to each of the k neighbours  
+>offset-weighted k-NN: Classify the test input according to the weighted accumulative class of the k nearst training instances, where weights are based on similarity of the input to each of the k neighbours, factoring in an offset to indicate the prior expectation of as test input being classified as being a member of that class  
+>brute-force for large data is not feasible  
+>tree-based data structures.  
+>Pros: Simple, can handle arbitrarily many classes  
+>Cons: useful distance function, voting function, expensive, lazy learner, prone to bias, arbitray k value  
+
+*Naive Bayes (do questions)*
+>![avatar](Pictures_for_important/NB1.PNG) 
+>![avatar](Pictures_for_important/NB2.PNG) 
+>NB is very simple to build, extremly fast to make decisions, and easy to change the probabilities when the new data becomes available  
+>Works well in many application areas  
+>Scales easily for large number of dimensions and data sizes  
+>Easy to explain the reason for the decision made  
+>One should apply NB first before launching into more sophisticated classification techniques
+
+---
+
 **Support Vector Machines**
 
 *Large Margin Classifiers*  
@@ -472,6 +505,10 @@ Anomaly/outlier detection
 >Soft Margin: Slack variables can be added to allow misclassification of difficult or noisy examples, resulting margin called soft.  
 >![avatar](Pictures_for_important/SSVM.PNG)  
 >Kernel Functions: implicitly maps data into a high-dimensional space, which can be solved by SVM
+
+
+
+
 
 ---
 
@@ -522,6 +559,44 @@ Anomaly/outlier detection
 
 *PMI(Point Mutual Information)*  
 >![avatar](Pictures_for_important/PMI1.PNG)  
->![avatar](Pictures_for_important/PMI2.PNG) 
+>![avatar](Pictures_for_important/PMI3.PNG) 
+
+*What makes a single feature good*  
+>Well correlated with class  
+>Reverse correlated with class  
+>Well correlated with not class  
+
+*MI*  
+>![avatar](Pictures_for_important/MI1.PNG) 
+>![avatar](Pictures_for_important/MI2.PNG) 
+>![avatar](Pictures_for_important/MI3.PNG) 
+
+*Chi-square*  
+>Check the value we actually observed O(W) with the expected value E(W)  
+>far from the expect means better  
+>![avatar](Pictures_for_important/Chi-square.PNG) 
+
+*Nominal attributes*
+>Treat as multiple Binary attributes  
+>Modify contigency tables
+
+*Continuous attributes (no exam)*
+>usually dealt with by estimating probability based on a Gaussian distibution  
+>With a large number of values, most random variables are nomally distibuted due to the Central Limit Theorem  
+>For small data sets or pathological features, we typically need to use messy binomial/multinomial distributions  
+
+*Ordinal attributs*  
+>Treat as binary  
+>Treat as nominal (throw away ordering)  
+>Treat as continuous  
+
+*Multi-Class problem*  
+>PMI, MI, Chi-square are all calculated per-class  
+>Need to make a point of selecting features for each class to give our classifier the best chance of predicting everything correctly  
+
+*Practical considerations*  
+>MI is biased toward rare, uninformative features
+
+
 
 Author: chuaan
