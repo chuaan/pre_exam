@@ -132,16 +132,16 @@ Q9:
 
            actual   Y   N
 predict
-Y                   40  30
-N                   20  10
+Y                   40  10
+N                   20  30
 
 (b)
 
-Accuracy: 0.5
+Accuracy: 0.7
 
 (c)
 
-Precision of Y: 4/7
+Precision of Y: 0.8
 
 Q10:
 
