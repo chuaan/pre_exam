@@ -43,7 +43,7 @@ BQ>AQ
 
 AQ>BQ
 
-because when ft = 1 the wqt = 0 so wqspain and wqin =0 so BQ=0
+because when ft = 2 the wqt = 0 so wqspain and wqin =0 so BQ=0
 
 Q3:
 

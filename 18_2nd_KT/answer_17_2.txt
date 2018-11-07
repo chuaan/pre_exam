@@ -83,7 +83,7 @@ There are only two classes
 
 primal: w and b. find the min ||w||^2 /2 from yi(xi*w+b)-1 >= 0
 
-dual: w b and α. see Lecture 16-17 duality formulation
+dual: α. see Lecture 16-17 duality formulation
 
 Q6:
 
