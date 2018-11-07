@@ -119,7 +119,7 @@ Q8:
 
 P(cj): can be estimated from the frequency of classes in the training examples
 P(x1,x2,...,xn|cj): O(|X|^n|C|) parameters
-for yesterday, P(tfw=0,ftw=0,wtf=0|yesterday)P(yesterday)=e/4
+for yesterday, P(tfw=0,ftw=0,wtf=0|yesterday)P(yesterday)=e/6
 
 (b)
 
