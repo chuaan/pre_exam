@@ -597,6 +597,37 @@ Anomaly/outlier detection
 *Practical considerations*  
 >MI is biased toward rare, uninformative features
 
+---
+
+**Decision Tree and Random Forest**  
+
+*Decision Tree*
+>Greedy approach: nodes with homogeneous class distribution are preferred
+
+*Measures of Node Impurity*
+>Misclassification Error: Error(t) = 1 - maxP(i|t)   
+>Entropy(t) = -Σp(j|t)lpgp(j|t)  
+>GINI: GINI(t)= 1-Σ[p(j|t)]^2  
+
+*How good is a Split*
+>biggest impurity change: I(parent)-ΣN(vj)I(vj)/N
+
+*Decision Tree Parameters*
+>Total number of nodes  
+>Tree depth  
+>Minimum number of data points for a split
+
+*Random Forest*
+>Train multiple decision trees on random subsets of samples  
+>Decision via majority voting  
+>Tree bagging: subset of records  
+>Random subspace: subset of features
+
+---  
+
+**Recommendation System**  
+
+
 
 
 Author: chuaan
