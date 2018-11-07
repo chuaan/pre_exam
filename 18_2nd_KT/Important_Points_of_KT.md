@@ -410,6 +410,118 @@ Anomaly/outlier detection
 >In evaluation, we aim to minimise classifier bias and variance  
 
 *Hold out*  
->
+>Train a classifier over a fixed training dataset, and evaluate it over a fixed held-out dataset  
+>Pros: simple to work with, high reproducibility  
+>Cons: trade-off between more training and more test data Representativeness of training and test data
+
+*Random Subsampling*  
+>Perform holdout over iterations, randomly selecting the training and test data (maintaining a fixed size for each dataset) on each iteration  
+>Evaluated by taking the average across the iterations  
+>Pro: reduction in variance and bias over "holdout" method  
+>Con: reproducability
+
+
+*Leave-one-out*  
+>Pros: There is no sampling bias in evaluating the system and the results will be unique and repeatable  
+>The method also generally gives higher accuracy values as nearly all (N-1) points are used in training.  
+>Cons: It is infeasible if we have large data set and the training is itself very expensive. 
+
+*M-fold Cross-Validation*  
+>M equal size partitions  
+>each for test other M-1 for training
+>Pros: We need to train the system only M times unlike Leave-One-Out which requires training N times.  
+>We can measure the stability of the system across different training/test combinations  
+>Cons: There can be a bias in evaluateing the system due to sampling, how data is distributed among the M partitions  
+>The results will be unique unless we always partition the data identically. One solution is repeat the M Fold Cross Validation by randomly shuffling the data M/2 times  
+>The results will give slightly lower accuracy values as only (M-1)/M is used for training  
+>For small data sets it is not always possible to partition the data propperly such that each partition represents tha data IID(Identically Independently Distributed)  
+
+*Baselines vs Benchmarks*  
+>Baseline = naive method which we would expect any reasonably well-developed method to better  
+>Benchmark = established rival technique which we are pitching our method against  
+>"Baseline" often used as umbrella term for both meanings  
+
+*Random Baseline*
+>1: randomly assign a class to each test instance(unsupervised)
+>2:randomly assign a class to each test instance, weighting the class assignment according to P(Ck)  
+
+*Zero-R*
+>Method: classify all instances according to the most common class in the training data  
+>The most commonly used baseline in machine learning  
+>Inappropriate if the majoirity class is FALSE and the learning task is to identify needles in the haystack
+
+*One-R*  
+>Method: create a "decision stump" for each attribute, with branches for each value, and populate the leaf with the mojority class at that leaf; select the decision stump which leads to the lowest error rate over the training data  
+>Pons:simple to understand and implement, simple to comprehend, surprisingly good results    
+>Cons: unable to capture attribute interactions, bias towards high-arity attributes
+
+---
+
+**Support Vector Machines**
+
+*Large Margin Classifiers*  
+>Find hyperplane maximises the margin  
+>Margin: sum of shortest distances from the planes to the positive/negative samples  
+
+*Hard Margin*  
+>![avatar](Pictures_for_important/HSVM.PNG)  
+>![avatar](Pictures_for_important/HPDSVM.PNG)  
+>![avatar](Pictures_for_important/HPDSVM1.PNG)  
+
+*Two ways to solve non-linearly data* 
+>Soft Margin: Slack variables can be added to allow misclassification of difficult or noisy examples, resulting margin called soft.  
+>![avatar](Pictures_for_important/SSVM.PNG)  
+>Kernel Functions: implicitly maps data into a high-dimensional space, which can be solved by SVM
+
+---
+
+**Feature Selection**
+
+*How to do Machine Learning*  
+>Pick a feature representation  
+>Compile data  
+>Pick a algorithm for building a model  
+>Train the model  
+>Classify development data, evaluate results  
+>go to first  
+
+*Goal*  
+>Choose attributes suitable for classifying the data according to the model  
+
+*Wrapper*  
+>Choose subset of attributes that give best performance on the development data  
+>Pro: feature set with optimal perfomance on development data  
+>Con: takes a long time  
+
+*Greedy*  
+>Train and evaluate model on each single attribute  
+>Choose best attribute  
+>Until convergence:  
+>>Train and evaluate model on best attributes, plus each remaining single attribute  
+>> Choose best attribute out of the remaining set 
+> 
+>Iterate until performance stops increasing  
+>pro:in practice, converges much more quickly 
+>cons: take m^2 /2 cycles, may be a sub-optimal solution
+
+*Ablation*
+>Start with all attributes  
+>Remove one attribute, train and evaluate model  
+>Pro: mostly removes irrelevant attributes 
+>cons: assumes independence of attributes, actually take m^2 time, slow 
+
+*Embedded*
+> Some models actually perform feature selection as part of the algorithm (decision tree)  
+
+*Feature filtering*  
+>Intuition: possible to evaluate "goodness" of each feature, separate from other features  
+>Consider each feature separately: linear time in number of attributes  
+>Typically most popular strategy  
+>Possible to control for inter-dependence of features  
+
+
+*PMI(Point Mutual Information)*  
+>![avatar](Pictures_for_important/PMI1.PNG)  
+>![avatar](Pictures_for_important/PMI2.PNG) 
 
 Author: chuaan
