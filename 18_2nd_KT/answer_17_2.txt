@@ -72,7 +72,7 @@ hard: classify all soft: the isolated two are not rightly classified
 
 (b)
 
-no, the soft margin can accept the misclassificiation of difficult or noisy examples, but the hard marin cannot accept.
+yes, the soft margin can accept the misclassificiation of difficult or noisy examples, but the hard marin cannot accept.
 
 (c)
 
