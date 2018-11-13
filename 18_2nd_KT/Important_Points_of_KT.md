@@ -612,6 +612,10 @@ Anomaly/outlier detection
 *How good is a Split*
 >biggest impurity change: I(parent)-ΣN(vj)I(vj)/N
 
+*Gain Ratio*
+>GainRatio = IG/SplitInfo
+>SplitInfor=-Σni/n * log(ni/n)
+
 *Decision Tree Parameters*
 >Total number of nodes  
 >Tree depth  
@@ -753,7 +757,7 @@ Anomaly/outlier detection
 
 *Classified*
 >useful: high quality, actionable information  
->trivial: already known to anyone familiar with the context  
+>trival: already known to anyone familiar with the context  
 >inexplicable: this which have no apparent explanation
 
 ---
